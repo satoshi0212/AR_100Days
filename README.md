@@ -3,6 +3,6 @@
 
 ### Summary
 
-| Day | Video |
-|:--|:--:|
-| 1 | https://user-images.githubusercontent.com/5768361/103440867-88409b80-4c8c-11eb-8e08-05e4536a8c61.mov |
+| Day | Picture |
+|:--|:--|
+| 1 | <img width="256" alt="スクリーンショット 2021-01-01 23 58 11" src="https://user-images.githubusercontent.com/5768361/103440936-47955200-4c8d-11eb-9c55-c1edeca790b0.png"> |
