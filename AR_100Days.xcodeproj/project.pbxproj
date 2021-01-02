@@ -16,6 +16,12 @@
 		AB5BC7A0259F68C4002EDF35 /* Day1_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BC796259F68C4002EDF35 /* Day1_ViewController.swift */; };
 		AB5BC7A1259F68C4002EDF35 /* sample_320x240.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AB5BC797259F68C4002EDF35 /* sample_320x240.mp4 */; };
 		AB5BC7A4259F68C4002EDF35 /* Day1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5BC79B259F68C4002EDF35 /* Day1.storyboard */; };
+		AB5BC7BF25A09B0F002EDF35 /* Day2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5BC7BE25A09B0F002EDF35 /* Day2.storyboard */; };
+		AB5BC7C225A09B20002EDF35 /* Day2_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BC7C125A09B20002EDF35 /* Day2_ViewController.swift */; };
+		AB5BC7C625A09BB9002EDF35 /* Day2_shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = AB5BC7C425A09BB9002EDF35 /* Day2_shaders.metal */; };
+		AB5BC7C725A09BB9002EDF35 /* PlaneNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BC7C525A09BB9002EDF35 /* PlaneNode.swift */; };
+		AB5BC7CE25A09BF6002EDF35 /* SCNVectorHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BC7CB25A09BF6002EDF35 /* SCNVectorHelpers.swift */; };
+		AB5BC7CF25A09BF6002EDF35 /* ScnMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BC7CC25A09BF6002EDF35 /* ScnMatrix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +36,12 @@
 		AB5BC796259F68C4002EDF35 /* Day1_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1_ViewController.swift; sourceTree = "<group>"; };
 		AB5BC797259F68C4002EDF35 /* sample_320x240.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample_320x240.mp4; sourceTree = "<group>"; };
 		AB5BC79C259F68C4002EDF35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Day1.storyboard; sourceTree = "<group>"; };
+		AB5BC7BE25A09B0F002EDF35 /* Day2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day2.storyboard; sourceTree = "<group>"; };
+		AB5BC7C125A09B20002EDF35 /* Day2_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2_ViewController.swift; sourceTree = "<group>"; };
+		AB5BC7C425A09BB9002EDF35 /* Day2_shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Day2_shaders.metal; sourceTree = "<group>"; };
+		AB5BC7C525A09BB9002EDF35 /* PlaneNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaneNode.swift; sourceTree = "<group>"; };
+		AB5BC7CB25A09BF6002EDF35 /* SCNVectorHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCNVectorHelpers.swift; sourceTree = "<group>"; };
+		AB5BC7CC25A09BF6002EDF35 /* ScnMatrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScnMatrix.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +98,7 @@
 		AB5BC769259F439E002EDF35 /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				AB5BC7BD25A09AFB002EDF35 /* Day2 */,
 				AB5BC795259F68C4002EDF35 /* Day1 */,
 			);
 			path = Days;
@@ -98,6 +111,27 @@
 				AB5BC79B259F68C4002EDF35 /* Day1.storyboard */,
 			);
 			path = Day1;
+			sourceTree = "<group>";
+		};
+		AB5BC7BD25A09AFB002EDF35 /* Day2 */ = {
+			isa = PBXGroup;
+			children = (
+				AB5BC7C925A09BF6002EDF35 /* Extensions */,
+				AB5BC7C525A09BB9002EDF35 /* PlaneNode.swift */,
+				AB5BC7C425A09BB9002EDF35 /* Day2_shaders.metal */,
+				AB5BC7C125A09B20002EDF35 /* Day2_ViewController.swift */,
+				AB5BC7BE25A09B0F002EDF35 /* Day2.storyboard */,
+			);
+			path = Day2;
+			sourceTree = "<group>";
+		};
+		AB5BC7C925A09BF6002EDF35 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AB5BC7CB25A09BF6002EDF35 /* SCNVectorHelpers.swift */,
+				AB5BC7CC25A09BF6002EDF35 /* ScnMatrix.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +195,7 @@
 				AB5BC75F259F4282002EDF35 /* LaunchScreen.storyboard in Resources */,
 				AB5BC7A1259F68C4002EDF35 /* sample_320x240.mp4 in Resources */,
 				AB5BC75C259F4282002EDF35 /* Assets.xcassets in Resources */,
+				AB5BC7BF25A09B0F002EDF35 /* Day2.storyboard in Resources */,
 				AB5BC75A259F4280002EDF35 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -172,10 +207,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB5BC7CF25A09BF6002EDF35 /* ScnMatrix.swift in Sources */,
+				AB5BC7C725A09BB9002EDF35 /* PlaneNode.swift in Sources */,
 				AB5BC7A0259F68C4002EDF35 /* Day1_ViewController.swift in Sources */,
+				AB5BC7C225A09B20002EDF35 /* Day2_ViewController.swift in Sources */,
+				AB5BC7C625A09BB9002EDF35 /* Day2_shaders.metal in Sources */,
 				AB5BC757259F4280002EDF35 /* RootViewController.swift in Sources */,
 				AB5BC753259F4280002EDF35 /* AppDelegate.swift in Sources */,
 				AB5BC755259F4280002EDF35 /* SceneDelegate.swift in Sources */,
+				AB5BC7CE25A09BF6002EDF35 /* SCNVectorHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
