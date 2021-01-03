@@ -1,0 +1,47 @@
+[
+  {
+    "libraryIdentifier" : "d750a4a9d7ca90cf27606dbbd0e8b61a",
+    "format" : "model",
+    "displayName" : "003_2_1.usdz"
+  },
+  {
+    "libraryIdentifier" : "d376a8a33dd7365bcc975c0362dbe623",
+    "format" : "model",
+    "displayName" : "003_2_2.usdz"
+  },
+  {
+    "libraryIdentifier" : "dbd17fb490c6dedc6cce13dc21310dc0",
+    "format" : "model",
+    "displayName" : "003_2_3.usdz"
+  },
+  {
+    "libraryIdentifier" : "eacca87ea2f471bb1b62cae5e88b6670",
+    "format" : "model",
+    "displayName" : "003_2_4.usdz"
+  },
+  {
+    "libraryIdentifier" : "9b401534a28e43c0e1a2c90ab6d0a2ba",
+    "format" : "model",
+    "displayName" : "003_2_5.usdz"
+  },
+  {
+    "libraryIdentifier" : "85efa186d9ba036a38278c75f6245619",
+    "format" : "model",
+    "displayName" : "003_2_dark.usdz"
+  },
+  {
+    "libraryIdentifier" : "8f3f3162629af2dfc66a731e5f76b7b5",
+    "format" : "model",
+    "displayName" : "003_3_1.usdz"
+  },
+  {
+    "libraryIdentifier" : "119ae301eb1c201314941c1b4cc8d5d8",
+    "format" : "model",
+    "displayName" : "003_3_1_dark.usdz"
+  },
+  {
+    "libraryIdentifier" : "e3a3a48ca0a16d427e9ea4e52bd75bbd",
+    "format" : "audio",
+    "displayName" : "y2mate.com - NHK紅白YOASOBI夜に駆ける.mp3"
+  }
+]
