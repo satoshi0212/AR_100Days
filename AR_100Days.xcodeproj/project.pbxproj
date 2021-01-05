@@ -28,6 +28,10 @@
 		ABE952C525A374BD00050AEC /* Day4_Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE952C425A374BD00050AEC /* Day4_Renderer.swift */; };
 		ABE952C925A3750000050AEC /* Day4_shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = ABE952C825A3750000050AEC /* Day4_shaders.metal */; };
 		ABE952CC25A375B500050AEC /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE952CB25A375B500050AEC /* DataSource.swift */; };
+		ABE952DB25A51C8300050AEC /* Day5_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE952DA25A51C8300050AEC /* Day5_ViewController.swift */; };
+		ABE952DE25A51C9700050AEC /* Day5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE952DD25A51C9700050AEC /* Day5.storyboard */; };
+		ABE952E425A51D4600050AEC /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = ABE952E025A51D4600050AEC /* Shaders.metal */; };
+		ABE952E525A51D4600050AEC /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE952E125A51D4600050AEC /* Renderer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +58,12 @@
 		ABE952C425A374BD00050AEC /* Day4_Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4_Renderer.swift; sourceTree = "<group>"; };
 		ABE952C825A3750000050AEC /* Day4_shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Day4_shaders.metal; sourceTree = "<group>"; };
 		ABE952CB25A375B500050AEC /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		ABE952DA25A51C8300050AEC /* Day5_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day5_ViewController.swift; sourceTree = "<group>"; };
+		ABE952DD25A51C9700050AEC /* Day5.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day5.storyboard; sourceTree = "<group>"; };
+		ABE952E025A51D4600050AEC /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		ABE952E125A51D4600050AEC /* Renderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		ABE952E225A51D4600050AEC /* AR_100Days-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AR_100Days-Bridging-Header.h"; sourceTree = "<group>"; };
+		ABE952E325A51D4600050AEC /* ShaderTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +106,7 @@
 				AB5BC75B259F4282002EDF35 /* Assets.xcassets */,
 				AB5BC75D259F4282002EDF35 /* LaunchScreen.storyboard */,
 				AB5BC760259F4282002EDF35 /* Info.plist */,
+				ABE952E225A51D4600050AEC /* AR_100Days-Bridging-Header.h */,
 			);
 			path = AR_100Days;
 			sourceTree = "<group>";
@@ -111,6 +122,7 @@
 		AB5BC769259F439E002EDF35 /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				ABE952D925A51C6A00050AEC /* Day5 */,
 				ABE952BD25A3743800050AEC /* Day4 */,
 				ABE952B925A3742000050AEC /* Day3 */,
 				AB5BC7BD25A09AFB002EDF35 /* Day2 */,
@@ -166,6 +178,18 @@
 				ABE952C825A3750000050AEC /* Day4_shaders.metal */,
 			);
 			path = Day4;
+			sourceTree = "<group>";
+		};
+		ABE952D925A51C6A00050AEC /* Day5 */ = {
+			isa = PBXGroup;
+			children = (
+				ABE952E125A51D4600050AEC /* Renderer.swift */,
+				ABE952E025A51D4600050AEC /* Shaders.metal */,
+				ABE952E325A51D4600050AEC /* ShaderTypes.h */,
+				ABE952DA25A51C8300050AEC /* Day5_ViewController.swift */,
+				ABE952DD25A51C9700050AEC /* Day5.storyboard */,
+			);
+			path = Day5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB5BC7A4259F68C4002EDF35 /* Day1.storyboard in Resources */,
+				ABE952DE25A51C9700050AEC /* Day5.storyboard in Resources */,
 				AB5BC75F259F4282002EDF35 /* LaunchScreen.storyboard in Resources */,
 				ABE952BF25A3745200050AEC /* Day4.storyboard in Resources */,
 				AB5BC7A1259F68C4002EDF35 /* sample_320x240.mp4 in Resources */,
@@ -245,15 +270,18 @@
 				ABE952CC25A375B500050AEC /* DataSource.swift in Sources */,
 				AB5BC7CF25A09BF6002EDF35 /* ScnMatrix.swift in Sources */,
 				AB5BC7C725A09BB9002EDF35 /* PlaneNode.swift in Sources */,
+				ABE952DB25A51C8300050AEC /* Day5_ViewController.swift in Sources */,
 				AB5BC7A0259F68C4002EDF35 /* Day1_ViewController.swift in Sources */,
 				AB5BC7C225A09B20002EDF35 /* Day2_ViewController.swift in Sources */,
 				ABE952C525A374BD00050AEC /* Day4_Renderer.swift in Sources */,
 				AB5BC7C625A09BB9002EDF35 /* Day2_shaders.metal in Sources */,
+				ABE952E425A51D4600050AEC /* Shaders.metal in Sources */,
 				AB5BC757259F4280002EDF35 /* RootViewController.swift in Sources */,
 				ABE952C925A3750000050AEC /* Day4_shaders.metal in Sources */,
 				AB5BC753259F4280002EDF35 /* AppDelegate.swift in Sources */,
 				ABE952BB25A3742000050AEC /* Day3.rcproject in Sources */,
 				ABE952C225A3747700050AEC /* Day4_ViewController.swift in Sources */,
+				ABE952E525A51D4600050AEC /* Renderer.swift in Sources */,
 				AB5BC755259F4280002EDF35 /* SceneDelegate.swift in Sources */,
 				AB5BC7CE25A09BF6002EDF35 /* SCNVectorHelpers.swift in Sources */,
 			);
@@ -420,6 +448,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "tokyo.shmdevelopment.AR-100Days";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AR_100Days/AR_100Days-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,6 +469,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "tokyo.shmdevelopment.AR-100Days";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AR_100Days/AR_100Days-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

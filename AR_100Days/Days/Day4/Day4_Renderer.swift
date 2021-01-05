@@ -19,15 +19,15 @@ struct WorldMesh {
     let submesh: ARGeometryElement
 }
 
-let kMaxBuffersInFlight: Int = 3
+private let kMaxBuffersInFlight: Int = 3
 
-let kMaxAnchorInstanceCount: Int = 64
+private let kMaxAnchorInstanceCount: Int = 64
 
-let kAlignedFrameUniformsSize = 256
-let kAlignedFragmentUniformsSize = 256
-let kAlignedInstanceUniformsSize = 16_384
+private let kAlignedFrameUniformsSize = 256
+private let kAlignedFragmentUniformsSize = 256
+private let kAlignedInstanceUniformsSize = 16_384
 
-let kImagePlaneVertexData: [Float] = [
+private let kImagePlaneVertexData: [Float] = [
     -1.0, -1.0,  0.0, 1.0,
     1.0, -1.0,  1.0, 1.0,
     -1.0,  1.0,  0.0, 0.0,
