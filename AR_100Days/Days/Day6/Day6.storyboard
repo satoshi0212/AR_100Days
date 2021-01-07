@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aYV-Qq-JqP">
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Day6 View Controller-->
+        <scene sceneID="a8Z-vq-Pa8">
+            <objects>
+                <viewController id="aYV-Qq-JqP" customClass="Day6_ViewController" customModule="AR_100Days" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R02-fH-Wqi">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GPX-QF-0W5">
+                                <rect key="frame" x="0.0" y="0.0" width="448" height="207"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tE8-ez-ofs">
+                                <rect key="frame" x="448" y="0.0" width="448" height="207"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A3F-si-9OH">
+                                <rect key="frame" x="0.0" y="207" width="448" height="207"/>
+                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w1E-90-QjX">
+                                <rect key="frame" x="448" y="207" width="448" height="207"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Nnd-9G-2N0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tE8-ez-ofs" firstAttribute="width" secondItem="R02-fH-Wqi" secondAttribute="width" multiplier="0.5" id="0P6-KF-qO5"/>
+                            <constraint firstItem="GPX-QF-0W5" firstAttribute="height" secondItem="R02-fH-Wqi" secondAttribute="height" multiplier="0.5" id="3WZ-Uq-Beo"/>
+                            <constraint firstAttribute="trailing" secondItem="w1E-90-QjX" secondAttribute="trailing" id="3hv-wN-pcZ"/>
+                            <constraint firstItem="tE8-ez-ofs" firstAttribute="height" secondItem="R02-fH-Wqi" secondAttribute="height" multiplier="0.5" id="48d-BN-j9v"/>
+                            <constraint firstItem="A3F-si-9OH" firstAttribute="height" secondItem="R02-fH-Wqi" secondAttribute="height" multiplier="0.5" id="9J8-x3-JUq"/>
+                            <constraint firstAttribute="trailing" secondItem="tE8-ez-ofs" secondAttribute="trailing" id="AIb-fy-K6y"/>
+                            <constraint firstItem="w1E-90-QjX" firstAttribute="height" secondItem="R02-fH-Wqi" secondAttribute="height" multiplier="0.5" id="ASO-oV-Rza"/>
+                            <constraint firstItem="w1E-90-QjX" firstAttribute="width" secondItem="R02-fH-Wqi" secondAttribute="width" multiplier="0.5" id="HcB-oV-YHZ"/>
+                            <constraint firstItem="GPX-QF-0W5" firstAttribute="width" secondItem="R02-fH-Wqi" secondAttribute="width" multiplier="0.5" id="VIf-8k-aMp"/>
+                            <constraint firstItem="A3F-si-9OH" firstAttribute="leading" secondItem="R02-fH-Wqi" secondAttribute="leading" id="ZEw-Rb-V5w"/>
+                            <constraint firstAttribute="bottom" secondItem="A3F-si-9OH" secondAttribute="bottom" id="aeE-Re-QiX"/>
+                            <constraint firstItem="tE8-ez-ofs" firstAttribute="top" secondItem="R02-fH-Wqi" secondAttribute="top" id="eaF-ix-1Rm"/>
+                            <constraint firstAttribute="bottom" secondItem="w1E-90-QjX" secondAttribute="bottom" id="jtN-qy-xjB"/>
+                            <constraint firstItem="GPX-QF-0W5" firstAttribute="top" secondItem="R02-fH-Wqi" secondAttribute="top" id="pQE-cG-m8h"/>
+                            <constraint firstItem="GPX-QF-0W5" firstAttribute="leading" secondItem="R02-fH-Wqi" secondAttribute="leading" id="r4A-hQ-dnS"/>
+                            <constraint firstItem="A3F-si-9OH" firstAttribute="width" secondItem="R02-fH-Wqi" secondAttribute="width" multiplier="0.5" id="rN2-Qg-8Kq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="frontView" destination="w1E-90-QjX" id="KwK-wb-rpX"/>
+                        <outlet property="telephotoView" destination="A3F-si-9OH" id="zuk-ez-NmF"/>
+                        <outlet property="ultraWideView" destination="GPX-QF-0W5" id="wKW-si-DYg"/>
+                        <outlet property="wideAngleView" destination="tE8-ez-ofs" id="MIT-5z-ywU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nP4-jC-tgV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="70"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -35,6 +35,11 @@ struct DaysDataSource {
             detail: "",
             classPrefix: "Day5"
         ),
+        Day(
+            title: "6: Multicamera(Landscape)",
+            detail: "",
+            classPrefix: "Day6"
+        ),
     ]
 }
 

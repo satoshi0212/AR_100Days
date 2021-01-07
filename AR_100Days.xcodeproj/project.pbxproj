@@ -22,6 +22,8 @@
 		AB5BC7C725A09BB9002EDF35 /* PlaneNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BC7C525A09BB9002EDF35 /* PlaneNode.swift */; };
 		AB5BC7CE25A09BF6002EDF35 /* SCNVectorHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BC7CB25A09BF6002EDF35 /* SCNVectorHelpers.swift */; };
 		AB5BC7CF25A09BF6002EDF35 /* ScnMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BC7CC25A09BF6002EDF35 /* ScnMatrix.swift */; };
+		AB7749D525A63577001900F1 /* Day6_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7749D425A63577001900F1 /* Day6_ViewController.swift */; };
+		AB7749D925A63582001900F1 /* Day6.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7749D825A63582001900F1 /* Day6.storyboard */; };
 		ABE952BB25A3742000050AEC /* Day3.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = ABE952BA25A3742000050AEC /* Day3.rcproject */; };
 		ABE952BF25A3745200050AEC /* Day4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE952BE25A3745200050AEC /* Day4.storyboard */; };
 		ABE952C225A3747700050AEC /* Day4_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE952C125A3747700050AEC /* Day4_ViewController.swift */; };
@@ -52,6 +54,8 @@
 		AB5BC7C525A09BB9002EDF35 /* PlaneNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaneNode.swift; sourceTree = "<group>"; };
 		AB5BC7CB25A09BF6002EDF35 /* SCNVectorHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCNVectorHelpers.swift; sourceTree = "<group>"; };
 		AB5BC7CC25A09BF6002EDF35 /* ScnMatrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScnMatrix.swift; sourceTree = "<group>"; };
+		AB7749D425A63577001900F1 /* Day6_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6_ViewController.swift; sourceTree = "<group>"; };
+		AB7749D825A63582001900F1 /* Day6.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day6.storyboard; sourceTree = "<group>"; };
 		ABE952BA25A3742000050AEC /* Day3.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Day3.rcproject; sourceTree = "<group>"; };
 		ABE952BE25A3745200050AEC /* Day4.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day4.storyboard; sourceTree = "<group>"; };
 		ABE952C125A3747700050AEC /* Day4_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4_ViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +126,7 @@
 		AB5BC769259F439E002EDF35 /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				AB7749D325A63369001900F1 /* Day6 */,
 				ABE952D925A51C6A00050AEC /* Day5 */,
 				ABE952BD25A3743800050AEC /* Day4 */,
 				ABE952B925A3742000050AEC /* Day3 */,
@@ -159,6 +164,15 @@
 				AB5BC7CC25A09BF6002EDF35 /* ScnMatrix.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AB7749D325A63369001900F1 /* Day6 */ = {
+			isa = PBXGroup;
+			children = (
+				AB7749D425A63577001900F1 /* Day6_ViewController.swift */,
+				AB7749D825A63582001900F1 /* Day6.storyboard */,
+			);
+			path = Day6;
 			sourceTree = "<group>";
 		};
 		ABE952B925A3742000050AEC /* Day3 */ = {
@@ -251,6 +265,7 @@
 			files = (
 				AB5BC7A4259F68C4002EDF35 /* Day1.storyboard in Resources */,
 				ABE952DE25A51C9700050AEC /* Day5.storyboard in Resources */,
+				AB7749D925A63582001900F1 /* Day6.storyboard in Resources */,
 				AB5BC75F259F4282002EDF35 /* LaunchScreen.storyboard in Resources */,
 				ABE952BF25A3745200050AEC /* Day4.storyboard in Resources */,
 				AB5BC7A1259F68C4002EDF35 /* sample_320x240.mp4 in Resources */,
@@ -269,6 +284,7 @@
 			files = (
 				ABE952CC25A375B500050AEC /* DataSource.swift in Sources */,
 				AB5BC7CF25A09BF6002EDF35 /* ScnMatrix.swift in Sources */,
+				AB7749D525A63577001900F1 /* Day6_ViewController.swift in Sources */,
 				AB5BC7C725A09BB9002EDF35 /* PlaneNode.swift in Sources */,
 				ABE952DB25A51C8300050AEC /* Day5_ViewController.swift in Sources */,
 				AB5BC7A0259F68C4002EDF35 /* Day1_ViewController.swift in Sources */,
