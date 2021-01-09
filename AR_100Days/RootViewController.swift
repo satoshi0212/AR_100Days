@@ -24,11 +24,16 @@ extension RootViewController: UITableViewDataSource, UITableViewDelegate {
         let day = daysDataSource.days[indexPath.row]
         cell.textLabel?.text = day.title
         cell.detailTextLabel?.text = day.detail
+        cell.selectionStyle = day.enabled ? .default : .none
+        cell.textLabel?.textColor = day.enabled ? .black : .lightGray
+//        cell.backgroundColor = day.enabled ? nil : .lightGray
+//        cell.contentView.alpha = day.enabled ? 1 : 0.5
         return cell
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let day = daysDataSource.days[indexPath.row]
+        guard day.enabled else { return }
         navigationController?.pushViewController(day.controller(), animated: true)
         tableView.deselectRow(at: indexPath, animated: true)
     }
