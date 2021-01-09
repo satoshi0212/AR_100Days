@@ -1,6 +1,7 @@
 # AR_100Days
 
 100 days AR implementation challenge.
+Twitter: #hundred_days_ar_challenge
 
 ### Summary
 
@@ -13,6 +14,10 @@
 | 5 | Camera background replace | <img width="128" alt="5" src="https://user-images.githubusercontent.com/5768361/103707841-bf97ab00-4ff2-11eb-84ce-c151e42f3beb.png"> |
 | 6 | Multicamera(Landscape) | <img width="128" alt="6" src="https://user-images.githubusercontent.com/5768361/103898220-f75c3b00-5137-11eb-849e-f6d602ccb507.PNG"> |
 | 7 | Unity VFX Graph: MorphingFace | <img width="128" alt="7" src="https://user-images.githubusercontent.com/5768361/103948084-84c17e80-517c-11eb-87b3-6ef3a2fb4e80.png"> |
+| 8 | AR VFX: Rcam2 | <img width="128" alt="8" src="https://user-images.githubusercontent.com/5768361/104105042-eefa3080-52ee-11eb-807e-112f4732f544.png"> |
+| 9 | Noise wall and human model | <img width="128" alt="9" src="https://user-images.githubusercontent.com/5768361/104105047-f3264e00-52ee-11eb-96ed-65116243f7cf.png"> |
 
 ### Respect to
 - https://github.com/warrenm
+- https://github.com/keijiro/Rcam2
+- https://www.youtube.com/watch?v=p4OgTv3QWqQ
