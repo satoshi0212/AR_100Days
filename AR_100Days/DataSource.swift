@@ -70,6 +70,11 @@ struct DaysDataSource {
             classPrefix: "",
             enabled: false
         ),
+        Day(
+            title: "10: Depth of field(LiDAR)",
+            detail: "",
+            classPrefix: "Day10",
+            enabled: true
+        ),
     ]
 }
-
