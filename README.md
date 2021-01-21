@@ -25,8 +25,10 @@ Twitter: #hundred_days_ar_challenge
 | 16 | Unity: LiDAR scanned 3D model | ![16](https://user-images.githubusercontent.com/5768361/105373326-e9cfa680-5c49-11eb-9f3f-6aa965daa8fa.gif) |
 | 17 | Unity: Point cloud | ![17](https://user-images.githubusercontent.com/5768361/105372887-6ca43180-5c49-11eb-8585-37a5e2de41aa.gif) |
 | 18 | Slash Multicamera | ![18](https://user-images.githubusercontent.com/5768361/105372479-fc95ab80-5c48-11eb-8041-68f4d608b310.gif) |
+| 19 | Unity: Depth point capture | ![19](https://user-images.githubusercontent.com/5768361/105394383-d7149c00-5c60-11eb-9661-06d99b5e2766.gif) |
 
 ### Respect to
 - https://github.com/warrenm
 - https://github.com/keijiro/Rcam2
 - https://www.youtube.com/watch?v=p4OgTv3QWqQ
+- https://github.com/TakashiYoshinaga/iPad-LiDAR-Depth-Sample-for-Unity
