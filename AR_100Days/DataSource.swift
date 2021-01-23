@@ -77,9 +77,15 @@ struct DaysDataSource {
             enabled: true
         ),
         Day(
-            title: "18: Triangle multi camera(Landscape)",
+            title: "18: Slash multi camera(Landscape)",
             detail: "",
             classPrefix: "Day18",
+            enabled: true
+        ),
+        Day(
+            title: "20: Space Voxels(LiDAR)",
+            detail: "",
+            classPrefix: "Day20",
             enabled: true
         ),
     ]

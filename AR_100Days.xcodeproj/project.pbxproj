@@ -30,6 +30,20 @@
 		AB774A0425ACF2E5001900F1 /* Day10.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB774A0025ACF2E5001900F1 /* Day10.storyboard */; };
 		AB9FA57125B9B57100AA3AA1 /* Day18.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9FA57025B9B57100AA3AA1 /* Day18.storyboard */; };
 		AB9FA57425B9B58600AA3AA1 /* Day18_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9FA57325B9B58600AA3AA1 /* Day18_ViewController.swift */; };
+		ABE19FC425BBE6E50034AC0A /* Day20.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE19FC325BBE6E50034AC0A /* Day20.storyboard */; };
+		ABE19FC725BBE6F90034AC0A /* Day20_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE19FC625BBE6F90034AC0A /* Day20_ViewController.swift */; };
+		ABE19FCD25BBE86D0034AC0A /* Voxels.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE19FC925BBE86D0034AC0A /* Voxels.swift */; };
+		ABE19FCE25BBE86D0034AC0A /* Voxel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE19FCA25BBE86D0034AC0A /* Voxel.swift */; };
+		ABE19FCF25BBE86D0034AC0A /* VoxelCursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE19FCB25BBE86D0034AC0A /* VoxelCursor.swift */; };
+		ABE19FD025BBE86D0034AC0A /* VoxelEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE19FCC25BBE86D0034AC0A /* VoxelEntity.swift */; };
+		ABE19FD325BBEABD0034AC0A /* ScreenBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE19FD225BBEABD0034AC0A /* ScreenBuffer.swift */; };
+		ABE19FD625BBF2930034AC0A /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE19FD525BBF2920034AC0A /* GameManager.swift */; };
+		ABE19FDA25BC21230034AC0A /* InputSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE19FD825BC21230034AC0A /* InputSystem.swift */; };
+		ABE19FFC25BC2E5A0034AC0A /* voxelBaseColor.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE19FF625BC2E5A0034AC0A /* voxelBaseColor.png */; };
+		ABE19FFD25BC2E5A0034AC0A /* voxelMetallic.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE19FF725BC2E5A0034AC0A /* voxelMetallic.png */; };
+		ABE19FFE25BC2E5A0034AC0A /* voxelRoughness.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE19FF825BC2E5A0034AC0A /* voxelRoughness.png */; };
+		ABE19FFF25BC2E5A0034AC0A /* Voxel_White.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ABE19FFA25BC2E5A0034AC0A /* Voxel_White.usdz */; };
+		ABE1A00025BC2E5A0034AC0A /* Voxel_Cage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ABE19FFB25BC2E5A0034AC0A /* Voxel_Cage.usdz */; };
 		ABE952BB25A3742000050AEC /* Day3.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = ABE952BA25A3742000050AEC /* Day3.rcproject */; };
 		ABE952BF25A3745200050AEC /* Day4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE952BE25A3745200050AEC /* Day4.storyboard */; };
 		ABE952C225A3747700050AEC /* Day4_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE952C125A3747700050AEC /* Day4_ViewController.swift */; };
@@ -69,6 +83,20 @@
 		AB774A0025ACF2E5001900F1 /* Day10.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Day10.storyboard; sourceTree = "<group>"; };
 		AB9FA57025B9B57100AA3AA1 /* Day18.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day18.storyboard; sourceTree = "<group>"; };
 		AB9FA57325B9B58600AA3AA1 /* Day18_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day18_ViewController.swift; sourceTree = "<group>"; };
+		ABE19FC325BBE6E50034AC0A /* Day20.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day20.storyboard; sourceTree = "<group>"; };
+		ABE19FC625BBE6F90034AC0A /* Day20_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day20_ViewController.swift; sourceTree = "<group>"; };
+		ABE19FC925BBE86D0034AC0A /* Voxels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Voxels.swift; sourceTree = "<group>"; };
+		ABE19FCA25BBE86D0034AC0A /* Voxel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Voxel.swift; sourceTree = "<group>"; };
+		ABE19FCB25BBE86D0034AC0A /* VoxelCursor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoxelCursor.swift; sourceTree = "<group>"; };
+		ABE19FCC25BBE86D0034AC0A /* VoxelEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoxelEntity.swift; sourceTree = "<group>"; };
+		ABE19FD225BBEABD0034AC0A /* ScreenBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenBuffer.swift; sourceTree = "<group>"; };
+		ABE19FD525BBF2920034AC0A /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		ABE19FD825BC21230034AC0A /* InputSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputSystem.swift; sourceTree = "<group>"; };
+		ABE19FF625BC2E5A0034AC0A /* voxelBaseColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voxelBaseColor.png; sourceTree = "<group>"; };
+		ABE19FF725BC2E5A0034AC0A /* voxelMetallic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voxelMetallic.png; sourceTree = "<group>"; };
+		ABE19FF825BC2E5A0034AC0A /* voxelRoughness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voxelRoughness.png; sourceTree = "<group>"; };
+		ABE19FFA25BC2E5A0034AC0A /* Voxel_White.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Voxel_White.usdz; sourceTree = "<group>"; };
+		ABE19FFB25BC2E5A0034AC0A /* Voxel_Cage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Voxel_Cage.usdz; sourceTree = "<group>"; };
 		ABE952BA25A3742000050AEC /* Day3.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Day3.rcproject; sourceTree = "<group>"; };
 		ABE952BE25A3745200050AEC /* Day4.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day4.storyboard; sourceTree = "<group>"; };
 		ABE952C125A3747700050AEC /* Day4_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4_ViewController.swift; sourceTree = "<group>"; };
@@ -139,6 +167,7 @@
 		AB5BC769259F439E002EDF35 /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				ABE19FC225BBE6B20034AC0A /* Day20 */,
 				AB9FA56F25B9B55D00AA3AA1 /* Day18 */,
 				AB7749FC25ACF2E5001900F1 /* Day10 */,
 				AB7749D325A63369001900F1 /* Day6 */,
@@ -208,6 +237,59 @@
 				AB9FA57025B9B57100AA3AA1 /* Day18.storyboard */,
 			);
 			path = Day18;
+			sourceTree = "<group>";
+		};
+		ABE19FC225BBE6B20034AC0A /* Day20 */ = {
+			isa = PBXGroup;
+			children = (
+				ABE19FF325BC2E5A0034AC0A /* assets */,
+				ABE19FD825BC21230034AC0A /* InputSystem.swift */,
+				ABE19FD525BBF2920034AC0A /* GameManager.swift */,
+				ABE19FD225BBEABD0034AC0A /* ScreenBuffer.swift */,
+				ABE19FCA25BBE86D0034AC0A /* Voxel.swift */,
+				ABE19FCB25BBE86D0034AC0A /* VoxelCursor.swift */,
+				ABE19FCC25BBE86D0034AC0A /* VoxelEntity.swift */,
+				ABE19FC925BBE86D0034AC0A /* Voxels.swift */,
+				ABE19FC625BBE6F90034AC0A /* Day20_ViewController.swift */,
+				ABE19FC325BBE6E50034AC0A /* Day20.storyboard */,
+			);
+			path = Day20;
+			sourceTree = "<group>";
+		};
+		ABE19FF325BC2E5A0034AC0A /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				ABE19FF425BC2E5A0034AC0A /* Textures */,
+				ABE19FF925BC2E5A0034AC0A /* Models */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		ABE19FF425BC2E5A0034AC0A /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				ABE19FF525BC2E5A0034AC0A /* Voxel */,
+			);
+			path = Textures;
+			sourceTree = "<group>";
+		};
+		ABE19FF525BC2E5A0034AC0A /* Voxel */ = {
+			isa = PBXGroup;
+			children = (
+				ABE19FF625BC2E5A0034AC0A /* voxelBaseColor.png */,
+				ABE19FF725BC2E5A0034AC0A /* voxelMetallic.png */,
+				ABE19FF825BC2E5A0034AC0A /* voxelRoughness.png */,
+			);
+			path = Voxel;
+			sourceTree = "<group>";
+		};
+		ABE19FF925BC2E5A0034AC0A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ABE19FFA25BC2E5A0034AC0A /* Voxel_White.usdz */,
+				ABE19FFB25BC2E5A0034AC0A /* Voxel_Cage.usdz */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		ABE952B925A3742000050AEC /* Day3 */ = {
@@ -298,12 +380,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB5BC7A4259F68C4002EDF35 /* Day1.storyboard in Resources */,
+				ABE1A00025BC2E5A0034AC0A /* Voxel_Cage.usdz in Resources */,
+				ABE19FFD25BC2E5A0034AC0A /* voxelMetallic.png in Resources */,
+				ABE19FFF25BC2E5A0034AC0A /* Voxel_White.usdz in Resources */,
 				ABE952DE25A51C9700050AEC /* Day5.storyboard in Resources */,
 				AB7749D925A63582001900F1 /* Day6.storyboard in Resources */,
 				AB5BC75F259F4282002EDF35 /* LaunchScreen.storyboard in Resources */,
+				ABE19FFE25BC2E5A0034AC0A /* voxelRoughness.png in Resources */,
 				AB774A0425ACF2E5001900F1 /* Day10.storyboard in Resources */,
+				ABE19FFC25BC2E5A0034AC0A /* voxelBaseColor.png in Resources */,
 				ABE952BF25A3745200050AEC /* Day4.storyboard in Resources */,
 				AB5BC7A1259F68C4002EDF35 /* sample_320x240.mp4 in Resources */,
+				ABE19FC425BBE6E50034AC0A /* Day20.storyboard in Resources */,
 				AB5BC75C259F4282002EDF35 /* Assets.xcassets in Resources */,
 				AB9FA57125B9B57100AA3AA1 /* Day18.storyboard in Resources */,
 				AB5BC7BF25A09B0F002EDF35 /* Day2.storyboard in Resources */,
@@ -318,18 +406,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABE19FCD25BBE86D0034AC0A /* Voxels.swift in Sources */,
 				ABE952CC25A375B500050AEC /* DataSource.swift in Sources */,
 				AB5BC7CF25A09BF6002EDF35 /* ScnMatrix.swift in Sources */,
+				ABE19FD325BBEABD0034AC0A /* ScreenBuffer.swift in Sources */,
 				AB7749D525A63577001900F1 /* Day6_ViewController.swift in Sources */,
 				AB774A0125ACF2E5001900F1 /* Day10_Renderer.swift in Sources */,
 				AB5BC7C725A09BB9002EDF35 /* PlaneNode.swift in Sources */,
+				ABE19FD625BBF2930034AC0A /* GameManager.swift in Sources */,
 				ABE952DB25A51C8300050AEC /* Day5_ViewController.swift in Sources */,
 				AB5BC7A0259F68C4002EDF35 /* Day1_ViewController.swift in Sources */,
+				ABE19FCF25BBE86D0034AC0A /* VoxelCursor.swift in Sources */,
 				AB9FA57425B9B58600AA3AA1 /* Day18_ViewController.swift in Sources */,
 				AB5BC7C225A09B20002EDF35 /* Day2_ViewController.swift in Sources */,
+				ABE19FDA25BC21230034AC0A /* InputSystem.swift in Sources */,
+				ABE19FC725BBE6F90034AC0A /* Day20_ViewController.swift in Sources */,
 				AB774A0225ACF2E5001900F1 /* Day10_Shaders.metal in Sources */,
 				ABE952C525A374BD00050AEC /* Day4_Renderer.swift in Sources */,
+				ABE19FD025BBE86D0034AC0A /* VoxelEntity.swift in Sources */,
 				AB5BC7C625A09BB9002EDF35 /* Day2_shaders.metal in Sources */,
+				ABE19FCE25BBE86D0034AC0A /* Voxel.swift in Sources */,
 				ABE952E425A51D4600050AEC /* Day5_Shaders.metal in Sources */,
 				AB5BC757259F4280002EDF35 /* RootViewController.swift in Sources */,
 				ABE952C925A3750000050AEC /* Day4_shaders.metal in Sources */,
