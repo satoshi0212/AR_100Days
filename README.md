@@ -26,6 +26,7 @@ Twitter: #hundred_days_ar_challenge
 | 17 | Unity: Point cloud | ![17](https://user-images.githubusercontent.com/5768361/105372887-6ca43180-5c49-11eb-8585-37a5e2de41aa.gif) |
 | 18 | Slash Multicamera | ![18](https://user-images.githubusercontent.com/5768361/105372479-fc95ab80-5c48-11eb-8041-68f4d608b310.gif) |
 | 19 | Unity: Depth point capture | ![19](https://user-images.githubusercontent.com/5768361/105394383-d7149c00-5c60-11eb-9661-06d99b5e2766.gif) |
+| 20 | Space Voxels | ![20](https://user-images.githubusercontent.com/5768361/105576821-cf680b00-5db8-11eb-9873-0f85b48e173d.gif) |
 
 ### Respect to
 - https://github.com/warrenm
