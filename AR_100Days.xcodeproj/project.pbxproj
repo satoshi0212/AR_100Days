@@ -44,6 +44,21 @@
 		ABE19FFE25BC2E5A0034AC0A /* voxelRoughness.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE19FF825BC2E5A0034AC0A /* voxelRoughness.png */; };
 		ABE19FFF25BC2E5A0034AC0A /* Voxel_White.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ABE19FFA25BC2E5A0034AC0A /* Voxel_White.usdz */; };
 		ABE1A00025BC2E5A0034AC0A /* Voxel_Cage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ABE19FFB25BC2E5A0034AC0A /* Voxel_Cage.usdz */; };
+		ABE1A00A25BC686D0034AC0A /* Day21_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE1A00925BC686D0034AC0A /* Day21_ViewController.swift */; };
+		ABE1A00E25BC68800034AC0A /* Day21.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE1A00D25BC68800034AC0A /* Day21.storyboard */; };
+		ABE1A01225BC6E770034AC0A /* Day21_GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE1A01025BC6E770034AC0A /* Day21_GameManager.swift */; };
+		ABE1A01325BC6E770034AC0A /* Day21_Classifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE1A01125BC6E770034AC0A /* Day21_Classifications.swift */; };
+		ABE1A02625BC72680034AC0A /* Day21_RadarMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE1A01F25BC72680034AC0A /* Day21_RadarMap.swift */; };
+		ABE1A03125BC72AF0034AC0A /* MetalParticles.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE1A02B25BC72AF0034AC0A /* MetalParticles.swift */; };
+		ABE1A03225BC72AF0034AC0A /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE1A02C25BC72AF0034AC0A /* MetalRenderer.swift */; };
+		ABE1A03325BC72AF0034AC0A /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = ABE1A02E25BC72AF0034AC0A /* Shaders.metal */; };
+		ABE1A03425BC72AF0034AC0A /* MetalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE1A03025BC72AF0034AC0A /* MetalModel.swift */; };
+		ABE1A06225BC864C0034AC0A /* cone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ABE1A06125BC864C0034AC0A /* cone.usdz */; };
+		ABE1A06D25BC89E00034AC0A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE1A06A25BC89E00034AC0A /* Extensions.swift */; };
+		ABE1A06E25BC89E00034AC0A /* OSLog+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE1A06B25BC89E00034AC0A /* OSLog+Helpers.swift */; };
+		ABE1A06F25BC89E00034AC0A /* Easing.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE1A06C25BC89E00034AC0A /* Easing.swift */; };
+		ABE1A07425BC91570034AC0A /* RealityKit+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE1A07225BC91570034AC0A /* RealityKit+Helpers.swift */; };
+		ABE1A07525BC91570034AC0A /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE1A07325BC91570034AC0A /* HelperFunctions.swift */; };
 		ABE952BB25A3742000050AEC /* Day3.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = ABE952BA25A3742000050AEC /* Day3.rcproject */; };
 		ABE952BF25A3745200050AEC /* Day4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE952BE25A3745200050AEC /* Day4.storyboard */; };
 		ABE952C225A3747700050AEC /* Day4_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE952C125A3747700050AEC /* Day4_ViewController.swift */; };
@@ -97,6 +112,22 @@
 		ABE19FF825BC2E5A0034AC0A /* voxelRoughness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voxelRoughness.png; sourceTree = "<group>"; };
 		ABE19FFA25BC2E5A0034AC0A /* Voxel_White.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Voxel_White.usdz; sourceTree = "<group>"; };
 		ABE19FFB25BC2E5A0034AC0A /* Voxel_Cage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Voxel_Cage.usdz; sourceTree = "<group>"; };
+		ABE1A00925BC686D0034AC0A /* Day21_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day21_ViewController.swift; sourceTree = "<group>"; };
+		ABE1A00D25BC68800034AC0A /* Day21.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day21.storyboard; sourceTree = "<group>"; };
+		ABE1A01025BC6E770034AC0A /* Day21_GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day21_GameManager.swift; sourceTree = "<group>"; };
+		ABE1A01125BC6E770034AC0A /* Day21_Classifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day21_Classifications.swift; sourceTree = "<group>"; };
+		ABE1A01F25BC72680034AC0A /* Day21_RadarMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day21_RadarMap.swift; sourceTree = "<group>"; };
+		ABE1A02B25BC72AF0034AC0A /* MetalParticles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalParticles.swift; sourceTree = "<group>"; };
+		ABE1A02C25BC72AF0034AC0A /* MetalRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalRenderer.swift; sourceTree = "<group>"; };
+		ABE1A02E25BC72AF0034AC0A /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		ABE1A02F25BC72AF0034AC0A /* Day21_ShaderTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day21_ShaderTypes.h; sourceTree = "<group>"; };
+		ABE1A03025BC72AF0034AC0A /* MetalModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalModel.swift; sourceTree = "<group>"; };
+		ABE1A06125BC864C0034AC0A /* cone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = cone.usdz; sourceTree = "<group>"; };
+		ABE1A06A25BC89E00034AC0A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		ABE1A06B25BC89E00034AC0A /* OSLog+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OSLog+Helpers.swift"; sourceTree = "<group>"; };
+		ABE1A06C25BC89E00034AC0A /* Easing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Easing.swift; sourceTree = "<group>"; };
+		ABE1A07225BC91570034AC0A /* RealityKit+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RealityKit+Helpers.swift"; sourceTree = "<group>"; };
+		ABE1A07325BC91570034AC0A /* HelperFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
 		ABE952BA25A3742000050AEC /* Day3.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Day3.rcproject; sourceTree = "<group>"; };
 		ABE952BE25A3745200050AEC /* Day4.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day4.storyboard; sourceTree = "<group>"; };
 		ABE952C125A3747700050AEC /* Day4_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4_ViewController.swift; sourceTree = "<group>"; };
@@ -142,6 +173,7 @@
 			children = (
 				AB5BC769259F439E002EDF35 /* Days */,
 				AB5BC768259F4396002EDF35 /* Resources */,
+				ABE1A06925BC898B0034AC0A /* Utilities */,
 				AB5BC752259F4280002EDF35 /* AppDelegate.swift */,
 				AB5BC754259F4280002EDF35 /* SceneDelegate.swift */,
 				AB5BC756259F4280002EDF35 /* RootViewController.swift */,
@@ -167,6 +199,7 @@
 		AB5BC769259F439E002EDF35 /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				ABE1A00725BC406F0034AC0A /* Day21 */,
 				ABE19FC225BBE6B20034AC0A /* Day20 */,
 				AB9FA56F25B9B55D00AA3AA1 /* Day18 */,
 				AB7749FC25ACF2E5001900F1 /* Day10 */,
@@ -292,6 +325,68 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		ABE1A00725BC406F0034AC0A /* Day21 */ = {
+			isa = PBXGroup;
+			children = (
+				ABE1A05F25BC864C0034AC0A /* assets */,
+				ABE1A02A25BC72AF0034AC0A /* Rendering */,
+				ABE1A01F25BC72680034AC0A /* Day21_RadarMap.swift */,
+				ABE1A01125BC6E770034AC0A /* Day21_Classifications.swift */,
+				ABE1A01025BC6E770034AC0A /* Day21_GameManager.swift */,
+				ABE1A00925BC686D0034AC0A /* Day21_ViewController.swift */,
+				ABE1A00D25BC68800034AC0A /* Day21.storyboard */,
+			);
+			path = Day21;
+			sourceTree = "<group>";
+		};
+		ABE1A02A25BC72AF0034AC0A /* Rendering */ = {
+			isa = PBXGroup;
+			children = (
+				ABE1A02B25BC72AF0034AC0A /* MetalParticles.swift */,
+				ABE1A02C25BC72AF0034AC0A /* MetalRenderer.swift */,
+				ABE1A02D25BC72AF0034AC0A /* Shaders */,
+				ABE1A03025BC72AF0034AC0A /* MetalModel.swift */,
+			);
+			path = Rendering;
+			sourceTree = "<group>";
+		};
+		ABE1A02D25BC72AF0034AC0A /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				ABE1A02E25BC72AF0034AC0A /* Shaders.metal */,
+				ABE1A02F25BC72AF0034AC0A /* Day21_ShaderTypes.h */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		ABE1A05F25BC864C0034AC0A /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				ABE1A06025BC864C0034AC0A /* Models */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		ABE1A06025BC864C0034AC0A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ABE1A06125BC864C0034AC0A /* cone.usdz */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ABE1A06925BC898B0034AC0A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				ABE1A06C25BC89E00034AC0A /* Easing.swift */,
+				ABE1A06A25BC89E00034AC0A /* Extensions.swift */,
+				ABE1A07325BC91570034AC0A /* HelperFunctions.swift */,
+				ABE1A06B25BC89E00034AC0A /* OSLog+Helpers.swift */,
+				ABE1A07225BC91570034AC0A /* RealityKit+Helpers.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		ABE952B925A3742000050AEC /* Day3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -379,6 +474,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABE1A00E25BC68800034AC0A /* Day21.storyboard in Resources */,
 				AB5BC7A4259F68C4002EDF35 /* Day1.storyboard in Resources */,
 				ABE1A00025BC2E5A0034AC0A /* Voxel_Cage.usdz in Resources */,
 				ABE19FFD25BC2E5A0034AC0A /* voxelMetallic.png in Resources */,
@@ -388,6 +484,7 @@
 				AB5BC75F259F4282002EDF35 /* LaunchScreen.storyboard in Resources */,
 				ABE19FFE25BC2E5A0034AC0A /* voxelRoughness.png in Resources */,
 				AB774A0425ACF2E5001900F1 /* Day10.storyboard in Resources */,
+				ABE1A06225BC864C0034AC0A /* cone.usdz in Resources */,
 				ABE19FFC25BC2E5A0034AC0A /* voxelBaseColor.png in Resources */,
 				ABE952BF25A3745200050AEC /* Day4.storyboard in Resources */,
 				AB5BC7A1259F68C4002EDF35 /* sample_320x240.mp4 in Resources */,
@@ -407,9 +504,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABE19FCD25BBE86D0034AC0A /* Voxels.swift in Sources */,
+				ABE1A03325BC72AF0034AC0A /* Shaders.metal in Sources */,
+				ABE1A01225BC6E770034AC0A /* Day21_GameManager.swift in Sources */,
 				ABE952CC25A375B500050AEC /* DataSource.swift in Sources */,
 				AB5BC7CF25A09BF6002EDF35 /* ScnMatrix.swift in Sources */,
+				ABE1A07425BC91570034AC0A /* RealityKit+Helpers.swift in Sources */,
 				ABE19FD325BBEABD0034AC0A /* ScreenBuffer.swift in Sources */,
+				ABE1A00A25BC686D0034AC0A /* Day21_ViewController.swift in Sources */,
 				AB7749D525A63577001900F1 /* Day6_ViewController.swift in Sources */,
 				AB774A0125ACF2E5001900F1 /* Day10_Renderer.swift in Sources */,
 				AB5BC7C725A09BB9002EDF35 /* PlaneNode.swift in Sources */,
@@ -417,22 +518,31 @@
 				ABE952DB25A51C8300050AEC /* Day5_ViewController.swift in Sources */,
 				AB5BC7A0259F68C4002EDF35 /* Day1_ViewController.swift in Sources */,
 				ABE19FCF25BBE86D0034AC0A /* VoxelCursor.swift in Sources */,
+				ABE1A06F25BC89E00034AC0A /* Easing.swift in Sources */,
+				ABE1A01325BC6E770034AC0A /* Day21_Classifications.swift in Sources */,
 				AB9FA57425B9B58600AA3AA1 /* Day18_ViewController.swift in Sources */,
 				AB5BC7C225A09B20002EDF35 /* Day2_ViewController.swift in Sources */,
 				ABE19FDA25BC21230034AC0A /* InputSystem.swift in Sources */,
 				ABE19FC725BBE6F90034AC0A /* Day20_ViewController.swift in Sources */,
+				ABE1A03425BC72AF0034AC0A /* MetalModel.swift in Sources */,
+				ABE1A06E25BC89E00034AC0A /* OSLog+Helpers.swift in Sources */,
 				AB774A0225ACF2E5001900F1 /* Day10_Shaders.metal in Sources */,
 				ABE952C525A374BD00050AEC /* Day4_Renderer.swift in Sources */,
 				ABE19FD025BBE86D0034AC0A /* VoxelEntity.swift in Sources */,
 				AB5BC7C625A09BB9002EDF35 /* Day2_shaders.metal in Sources */,
+				ABE1A03125BC72AF0034AC0A /* MetalParticles.swift in Sources */,
 				ABE19FCE25BBE86D0034AC0A /* Voxel.swift in Sources */,
 				ABE952E425A51D4600050AEC /* Day5_Shaders.metal in Sources */,
 				AB5BC757259F4280002EDF35 /* RootViewController.swift in Sources */,
 				ABE952C925A3750000050AEC /* Day4_shaders.metal in Sources */,
 				AB5BC753259F4280002EDF35 /* AppDelegate.swift in Sources */,
+				ABE1A02625BC72680034AC0A /* Day21_RadarMap.swift in Sources */,
+				ABE1A07525BC91570034AC0A /* HelperFunctions.swift in Sources */,
 				ABE952BB25A3742000050AEC /* Day3.rcproject in Sources */,
 				AB774A0325ACF2E5001900F1 /* Day10_ViewController.swift in Sources */,
 				ABE952C225A3747700050AEC /* Day4_ViewController.swift in Sources */,
+				ABE1A06D25BC89E00034AC0A /* Extensions.swift in Sources */,
+				ABE1A03225BC72AF0034AC0A /* MetalRenderer.swift in Sources */,
 				ABE952E525A51D4600050AEC /* Day5_Renderer.swift in Sources */,
 				AB5BC755259F4280002EDF35 /* SceneDelegate.swift in Sources */,
 				AB5BC7CE25A09BF6002EDF35 /* SCNVectorHelpers.swift in Sources */,

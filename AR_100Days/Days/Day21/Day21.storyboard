@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xXM-ay-QD1">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Day21 View Controller-->
+        <scene sceneID="DSi-vL-9Yz">
+            <objects>
+                <viewController storyboardIdentifier="Day21_ViewController" id="xXM-ay-QD1" customClass="Day21_ViewController" customModule="AR_100Days" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ejA-Hz-1iT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arView multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="51h-EZ-F9r">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </arView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uto-BG-h2J"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="51h-EZ-F9r" secondAttribute="trailing" id="80G-Zz-kyq"/>
+                            <constraint firstItem="51h-EZ-F9r" firstAttribute="leading" secondItem="ejA-Hz-1iT" secondAttribute="leading" id="RxK-qQ-3wC"/>
+                            <constraint firstAttribute="bottom" secondItem="51h-EZ-F9r" secondAttribute="bottom" id="UeR-HA-zfL"/>
+                            <constraint firstItem="51h-EZ-F9r" firstAttribute="top" secondItem="ejA-Hz-1iT" secondAttribute="top" id="cHk-2L-8Qv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="arView" destination="51h-EZ-F9r" id="iRe-BJ-UTK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2lw-RH-D7x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="100" y="70"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

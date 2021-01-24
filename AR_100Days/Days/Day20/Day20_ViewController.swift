@@ -120,26 +120,3 @@ class Day20_ViewController: UIViewController, UIGestureRecognizerDelegate {
 extension Day20_ViewController: ARSessionDelegate {
 
 }
-
-func clampValue<T>(_ value: T, _ minValue: T, _ maxValue: T) -> T where T: Comparable {
-    return min(max(value, minValue), maxValue)
-}
-
-extension float4x4 {
-
-    var upVector: SIMD3<Float> {
-        return SIMD3<Float>(columns.1.x, columns.1.y, columns.1.z)
-    }
-
-    var rightVector: SIMD3<Float> {
-        return SIMD3<Float>(columns.0.x, columns.0.y, columns.0.z)
-    }
-
-    var forwardVector: SIMD3<Float> {
-        return SIMD3<Float>(-columns.2.x, -columns.2.y, -columns.2.z)
-    }
-
-    var position: SIMD3<Float> {
-        return SIMD3<Float>(columns.3.x, columns.3.y, columns.3.z)
-    }
-}
