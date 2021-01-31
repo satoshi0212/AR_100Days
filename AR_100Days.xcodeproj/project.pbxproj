@@ -73,6 +73,12 @@
 		ABF68E8625C5C718007C9BB7 /* Day26.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF68E8525C5C718007C9BB7 /* Day26.storyboard */; };
 		ABF68E8B25C5D6D8007C9BB7 /* Day27.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF68E8A25C5D6D8007C9BB7 /* Day27.storyboard */; };
 		ABF68E8E25C5D6EA007C9BB7 /* Day27_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF68E8D25C5D6EA007C9BB7 /* Day27_ViewController.swift */; };
+		ABF68E9825C69405007C9BB7 /* Day28_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF68E9725C69405007C9BB7 /* Day28_ViewController.swift */; };
+		ABF68E9C25C6940E007C9BB7 /* Day28.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF68E9B25C6940E007C9BB7 /* Day28.storyboard */; };
+		ABF68EA025C6B20C007C9BB7 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = ABF68E9E25C6B20C007C9BB7 /* splash.png */; };
+		ABF68EA125C6B20C007C9BB7 /* wood-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = ABF68E9F25C6B20C007C9BB7 /* wood-normal.png */; };
+		ABF68EA925C6B988007C9BB7 /* SceneKitAssets.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF68EA825C6B988007C9BB7 /* SceneKitAssets.scnassets */; };
+		ABF68EAC25C6BCC0007C9BB7 /* wood.png in Resources */ = {isa = PBXBuildFile; fileRef = ABF68EAB25C6BCC0007C9BB7 /* wood.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -147,6 +153,12 @@
 		ABF68E8525C5C718007C9BB7 /* Day26.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day26.storyboard; sourceTree = "<group>"; };
 		ABF68E8A25C5D6D8007C9BB7 /* Day27.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day27.storyboard; sourceTree = "<group>"; };
 		ABF68E8D25C5D6EA007C9BB7 /* Day27_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day27_ViewController.swift; sourceTree = "<group>"; };
+		ABF68E9725C69405007C9BB7 /* Day28_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day28_ViewController.swift; sourceTree = "<group>"; };
+		ABF68E9B25C6940E007C9BB7 /* Day28.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day28.storyboard; sourceTree = "<group>"; };
+		ABF68E9E25C6B20C007C9BB7 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		ABF68E9F25C6B20C007C9BB7 /* wood-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wood-normal.png"; sourceTree = "<group>"; };
+		ABF68EA825C6B988007C9BB7 /* SceneKitAssets.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = SceneKitAssets.scnassets; sourceTree = "<group>"; };
+		ABF68EAB25C6BCC0007C9BB7 /* wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +200,7 @@
 				ABE952CB25A375B500050AEC /* DataSource.swift */,
 				AB5BC758259F4280002EDF35 /* Main.storyboard */,
 				AB5BC75B259F4282002EDF35 /* Assets.xcassets */,
+				ABF68EA825C6B988007C9BB7 /* SceneKitAssets.scnassets */,
 				AB5BC75D259F4282002EDF35 /* LaunchScreen.storyboard */,
 				AB5BC760259F4282002EDF35 /* Info.plist */,
 				AB7749F125ACEA60001900F1 /* ShaderTypes.h */,
@@ -199,6 +212,9 @@
 		AB5BC768259F4396002EDF35 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				ABF68EAB25C6BCC0007C9BB7 /* wood.png */,
+				ABF68E9E25C6B20C007C9BB7 /* splash.png */,
+				ABF68E9F25C6B20C007C9BB7 /* wood-normal.png */,
 				AB5BC797259F68C4002EDF35 /* sample_320x240.mp4 */,
 			);
 			path = Resources;
@@ -207,6 +223,7 @@
 		AB5BC769259F439E002EDF35 /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				ABF68E9625C6911C007C9BB7 /* Day28 */,
 				ABF68E8925C5D6C8007C9BB7 /* Day27 */,
 				ABF68E8125C5C6E2007C9BB7 /* Day26 */,
 				ABE1A00725BC406F0034AC0A /* Day21 */,
@@ -445,6 +462,15 @@
 			path = Day27;
 			sourceTree = "<group>";
 		};
+		ABF68E9625C6911C007C9BB7 /* Day28 */ = {
+			isa = PBXGroup;
+			children = (
+				ABF68E9725C69405007C9BB7 /* Day28_ViewController.swift */,
+				ABF68E9B25C6940E007C9BB7 /* Day28.storyboard */,
+			);
+			path = Day28;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -511,6 +537,8 @@
 				AB7749D925A63582001900F1 /* Day6.storyboard in Resources */,
 				AB5BC75F259F4282002EDF35 /* LaunchScreen.storyboard in Resources */,
 				ABE19FFE25BC2E5A0034AC0A /* voxelRoughness.png in Resources */,
+				ABF68EA125C6B20C007C9BB7 /* wood-normal.png in Resources */,
+				ABF68E9C25C6940E007C9BB7 /* Day28.storyboard in Resources */,
 				ABF68E8625C5C718007C9BB7 /* Day26.storyboard in Resources */,
 				AB774A0425ACF2E5001900F1 /* Day10.storyboard in Resources */,
 				ABE1A06225BC864C0034AC0A /* cone.usdz in Resources */,
@@ -518,8 +546,11 @@
 				ABE952BF25A3745200050AEC /* Day4.storyboard in Resources */,
 				AB5BC7A1259F68C4002EDF35 /* sample_320x240.mp4 in Resources */,
 				ABE19FC425BBE6E50034AC0A /* Day20.storyboard in Resources */,
+				ABF68EAC25C6BCC0007C9BB7 /* wood.png in Resources */,
 				AB5BC75C259F4282002EDF35 /* Assets.xcassets in Resources */,
+				ABF68EA925C6B988007C9BB7 /* SceneKitAssets.scnassets in Resources */,
 				ABF68E8B25C5D6D8007C9BB7 /* Day27.storyboard in Resources */,
+				ABF68EA025C6B20C007C9BB7 /* splash.png in Resources */,
 				AB9FA57125B9B57100AA3AA1 /* Day18.storyboard in Resources */,
 				AB5BC7BF25A09B0F002EDF35 /* Day2.storyboard in Resources */,
 				AB5BC75A259F4280002EDF35 /* Main.storyboard in Resources */,
@@ -566,6 +597,7 @@
 				ABE952E425A51D4600050AEC /* Day5_Shaders.metal in Sources */,
 				AB5BC757259F4280002EDF35 /* RootViewController.swift in Sources */,
 				ABE952C925A3750000050AEC /* Day4_shaders.metal in Sources */,
+				ABF68E9825C69405007C9BB7 /* Day28_ViewController.swift in Sources */,
 				AB5BC753259F4280002EDF35 /* AppDelegate.swift in Sources */,
 				ABE1A02625BC72680034AC0A /* Day21_RadarMap.swift in Sources */,
 				ABE1A07525BC91570034AC0A /* HelperFunctions.swift in Sources */,
