@@ -33,6 +33,8 @@ Twitter: #hundred_days_ar_challenge
 | 24 | Particle and plane | ![24](https://user-images.githubusercontent.com/5768361/106363907-bccc7380-636e-11eb-9745-42a4726a7382.gif) |
 | 25 | Particle and LiDAR scan | ![25](https://user-images.githubusercontent.com/5768361/106363936-ed141200-636e-11eb-8972-a6dd0a514bf4.gif) |
 | 26 | Gaze tracking | ![26](https://user-images.githubusercontent.com/5768361/106363969-23519180-636f-11eb-819a-522b7dbb9e8b.gif) |
+| 27 | Kimetsu Eye | ![27](https://user-images.githubusercontent.com/5768361/106389121-2909ae80-6425-11eb-8e24-cd611bc85df3.gif) |
+| 28 | Painting ball | ![28](https://user-images.githubusercontent.com/5768361/106389253-b8af5d00-6425-11eb-878d-a8fe526527e1.gif) |
 
 ### Respect to
 - https://github.com/warrenm
@@ -40,3 +42,4 @@ Twitter: #hundred_days_ar_challenge
 - https://www.youtube.com/watch?v=p4OgTv3QWqQ
 - https://github.com/TakashiYoshinaga/iPad-LiDAR-Depth-Sample-for-Unity
 - https://github.com/andrewzimmer906/HeatMapEyeTracking
+- https://github.com/ooper-shlab/SceneKitReel-Swift
