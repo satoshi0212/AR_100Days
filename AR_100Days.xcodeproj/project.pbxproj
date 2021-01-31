@@ -71,6 +71,8 @@
 		ABE952E525A51D4600050AEC /* Day5_Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE952E125A51D4600050AEC /* Day5_Renderer.swift */; };
 		ABF68E8325C5C70D007C9BB7 /* Day26_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF68E8225C5C70D007C9BB7 /* Day26_ViewController.swift */; };
 		ABF68E8625C5C718007C9BB7 /* Day26.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF68E8525C5C718007C9BB7 /* Day26.storyboard */; };
+		ABF68E8B25C5D6D8007C9BB7 /* Day27.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF68E8A25C5D6D8007C9BB7 /* Day27.storyboard */; };
+		ABF68E8E25C5D6EA007C9BB7 /* Day27_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF68E8D25C5D6EA007C9BB7 /* Day27_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -143,6 +145,8 @@
 		ABE952E225A51D4600050AEC /* AR_100Days-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AR_100Days-Bridging-Header.h"; sourceTree = "<group>"; };
 		ABF68E8225C5C70D007C9BB7 /* Day26_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day26_ViewController.swift; sourceTree = "<group>"; };
 		ABF68E8525C5C718007C9BB7 /* Day26.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day26.storyboard; sourceTree = "<group>"; };
+		ABF68E8A25C5D6D8007C9BB7 /* Day27.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day27.storyboard; sourceTree = "<group>"; };
+		ABF68E8D25C5D6EA007C9BB7 /* Day27_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day27_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +207,7 @@
 		AB5BC769259F439E002EDF35 /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				ABF68E8925C5D6C8007C9BB7 /* Day27 */,
 				ABF68E8125C5C6E2007C9BB7 /* Day26 */,
 				ABE1A00725BC406F0034AC0A /* Day21 */,
 				ABE19FC225BBE6B20034AC0A /* Day20 */,
@@ -431,6 +436,15 @@
 			path = Day26;
 			sourceTree = "<group>";
 		};
+		ABF68E8925C5D6C8007C9BB7 /* Day27 */ = {
+			isa = PBXGroup;
+			children = (
+				ABF68E8D25C5D6EA007C9BB7 /* Day27_ViewController.swift */,
+				ABF68E8A25C5D6D8007C9BB7 /* Day27.storyboard */,
+			);
+			path = Day27;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -505,6 +519,7 @@
 				AB5BC7A1259F68C4002EDF35 /* sample_320x240.mp4 in Resources */,
 				ABE19FC425BBE6E50034AC0A /* Day20.storyboard in Resources */,
 				AB5BC75C259F4282002EDF35 /* Assets.xcassets in Resources */,
+				ABF68E8B25C5D6D8007C9BB7 /* Day27.storyboard in Resources */,
 				AB9FA57125B9B57100AA3AA1 /* Day18.storyboard in Resources */,
 				AB5BC7BF25A09B0F002EDF35 /* Day2.storyboard in Resources */,
 				AB5BC75A259F4280002EDF35 /* Main.storyboard in Resources */,
@@ -555,6 +570,7 @@
 				ABE1A02625BC72680034AC0A /* Day21_RadarMap.swift in Sources */,
 				ABE1A07525BC91570034AC0A /* HelperFunctions.swift in Sources */,
 				ABE952BB25A3742000050AEC /* Day3.rcproject in Sources */,
+				ABF68E8E25C5D6EA007C9BB7 /* Day27_ViewController.swift in Sources */,
 				AB774A0325ACF2E5001900F1 /* Day10_ViewController.swift in Sources */,
 				ABE952C225A3747700050AEC /* Day4_ViewController.swift in Sources */,
 				ABE1A06D25BC89E00034AC0A /* Extensions.swift in Sources */,
