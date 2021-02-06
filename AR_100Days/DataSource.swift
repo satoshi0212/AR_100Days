@@ -29,13 +29,7 @@ struct DaysDataSource {
             enabled: true
         ),
         Day(
-            title: "3: YOASOBI",
-            detail: "",
-            classPrefix: "",
-            enabled: false
-        ),
-        Day(
-            title: "4: LiDAR Metal(LiDAR Device only)",
+            title: "4: LiDAR: Metal",
             detail: "",
             classPrefix: "Day4",
             enabled: true
@@ -53,25 +47,7 @@ struct DaysDataSource {
             enabled: true
         ),
         Day(
-            title: "7: Unity VFX Graph: MorphingFace",
-            detail: "",
-            classPrefix: "",
-            enabled: false
-        ),
-        Day(
-            title: "8: AR VFX: Rcam2",
-            detail: "",
-            classPrefix: "",
-            enabled: false
-        ),
-        Day(
-            title: "9: Noise wall and human model",
-            detail: "",
-            classPrefix: "",
-            enabled: false
-        ),
-        Day(
-            title: "10: Depth of field(LiDAR)",
+            title: "10: LiDAR: Depth of field",
             detail: "",
             classPrefix: "Day10",
             enabled: true
@@ -83,13 +59,13 @@ struct DaysDataSource {
             enabled: true
         ),
         Day(
-            title: "20: Space Voxels(LiDAR)",
+            title: "20: LiDAR: Space Voxels",
             detail: "",
             classPrefix: "Day20",
             enabled: true
         ),
         Day(
-            title: "21: LiDAR Radar(LiDAR)",
+            title: "21: LiDAR: Radar",
             detail: "",
             classPrefix: "Day21",
             enabled: true
@@ -110,6 +86,12 @@ struct DaysDataSource {
             title: "28: Painting ball",
             detail: "",
             classPrefix: "Day28",
+            enabled: true
+        ),
+        Day(
+            title: "31: LiDAR: Ball physics",
+            detail: "",
+            classPrefix: "Day31",
             enabled: true
         ),
     ]

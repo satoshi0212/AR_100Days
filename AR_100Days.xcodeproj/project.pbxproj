@@ -22,6 +22,8 @@
 		AB5BC7C725A09BB9002EDF35 /* PlaneNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BC7C525A09BB9002EDF35 /* PlaneNode.swift */; };
 		AB5BC7CE25A09BF6002EDF35 /* SCNVectorHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BC7CB25A09BF6002EDF35 /* SCNVectorHelpers.swift */; };
 		AB5BC7CF25A09BF6002EDF35 /* ScnMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BC7CC25A09BF6002EDF35 /* ScnMatrix.swift */; };
+		AB6F8D5B25CF28E8002F34A6 /* Day31_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6F8D5A25CF28E8002F34A6 /* Day31_ViewController.swift */; };
+		AB6F8D5F25CF28F8002F34A6 /* Day31.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6F8D5E25CF28F8002F34A6 /* Day31.storyboard */; };
 		AB7749D525A63577001900F1 /* Day6_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7749D425A63577001900F1 /* Day6_ViewController.swift */; };
 		AB7749D925A63582001900F1 /* Day6.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7749D825A63582001900F1 /* Day6.storyboard */; };
 		AB774A0125ACF2E5001900F1 /* Day10_Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7749FD25ACF2E5001900F1 /* Day10_Renderer.swift */; };
@@ -99,6 +101,8 @@
 		AB5BC7C525A09BB9002EDF35 /* PlaneNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaneNode.swift; sourceTree = "<group>"; };
 		AB5BC7CB25A09BF6002EDF35 /* SCNVectorHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCNVectorHelpers.swift; sourceTree = "<group>"; };
 		AB5BC7CC25A09BF6002EDF35 /* ScnMatrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScnMatrix.swift; sourceTree = "<group>"; };
+		AB6F8D5A25CF28E8002F34A6 /* Day31_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day31_ViewController.swift; sourceTree = "<group>"; };
+		AB6F8D5E25CF28F8002F34A6 /* Day31.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day31.storyboard; sourceTree = "<group>"; };
 		AB7749D425A63577001900F1 /* Day6_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6_ViewController.swift; sourceTree = "<group>"; };
 		AB7749D825A63582001900F1 /* Day6.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day6.storyboard; sourceTree = "<group>"; };
 		AB7749F125ACEA60001900F1 /* ShaderTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
@@ -223,6 +227,7 @@
 		AB5BC769259F439E002EDF35 /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				AB6F8D5925CF28D5002F34A6 /* Day31 */,
 				ABF68E9625C6911C007C9BB7 /* Day28 */,
 				ABF68E8925C5D6C8007C9BB7 /* Day27 */,
 				ABF68E8125C5C6E2007C9BB7 /* Day26 */,
@@ -268,6 +273,15 @@
 				AB5BC7CC25A09BF6002EDF35 /* ScnMatrix.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AB6F8D5925CF28D5002F34A6 /* Day31 */ = {
+			isa = PBXGroup;
+			children = (
+				AB6F8D5A25CF28E8002F34A6 /* Day31_ViewController.swift */,
+				AB6F8D5E25CF28F8002F34A6 /* Day31.storyboard */,
+			);
+			path = Day31;
 			sourceTree = "<group>";
 		};
 		AB7749D325A63369001900F1 /* Day6 */ = {
@@ -532,6 +546,7 @@
 				AB5BC7A4259F68C4002EDF35 /* Day1.storyboard in Resources */,
 				ABE1A00025BC2E5A0034AC0A /* Voxel_Cage.usdz in Resources */,
 				ABE19FFD25BC2E5A0034AC0A /* voxelMetallic.png in Resources */,
+				AB6F8D5F25CF28F8002F34A6 /* Day31.storyboard in Resources */,
 				ABE19FFF25BC2E5A0034AC0A /* Voxel_White.usdz in Resources */,
 				ABE952DE25A51C9700050AEC /* Day5.storyboard in Resources */,
 				AB7749D925A63582001900F1 /* Day6.storyboard in Resources */,
@@ -600,6 +615,7 @@
 				ABF68E9825C69405007C9BB7 /* Day28_ViewController.swift in Sources */,
 				AB5BC753259F4280002EDF35 /* AppDelegate.swift in Sources */,
 				ABE1A02625BC72680034AC0A /* Day21_RadarMap.swift in Sources */,
+				AB6F8D5B25CF28E8002F34A6 /* Day31_ViewController.swift in Sources */,
 				ABE1A07525BC91570034AC0A /* HelperFunctions.swift in Sources */,
 				ABE952BB25A3742000050AEC /* Day3.rcproject in Sources */,
 				ABF68E8E25C5D6EA007C9BB7 /* Day27_ViewController.swift in Sources */,
