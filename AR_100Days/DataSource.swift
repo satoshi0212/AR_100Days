@@ -100,6 +100,12 @@ struct DaysDataSource {
             classPrefix: "Day36",
             enabled: true
         ),
+        Day(
+            title: "37: Pink smog",
+            detail: "",
+            classPrefix: "Day37",
+            enabled: true
+        ),
 
     ]
 }
