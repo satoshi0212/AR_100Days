@@ -94,5 +94,12 @@ struct DaysDataSource {
             classPrefix: "Day31",
             enabled: true
         ),
+        Day(
+            title: "36: Custom SCNGeometry",
+            detail: "",
+            classPrefix: "Day36",
+            enabled: true
+        ),
+
     ]
 }
