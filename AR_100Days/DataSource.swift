@@ -112,16 +112,22 @@ struct DaysDataSource {
             classPrefix: "Day38",
             enabled: true
         ),
-        Day(
-            title: "39: LiDAR: Real world Splatoon!",
-            detail: "",
-            classPrefix: "Day39",
-            enabled: false
-        ),
+//        Day(
+//            title: "39: LiDAR: Real world Splatoon!",
+//            detail: "",
+//            classPrefix: "Day39",
+//            enabled: false
+//        ),
         Day(
             title: "40: Blue face map",
             detail: "",
             classPrefix: "Day40",
+            enabled: true
+        ),
+        Day(
+            title: "41: Draw on face map",
+            detail: "",
+            classPrefix: "Day41",
             enabled: true
         ),
 
