@@ -30,6 +30,8 @@
 		AB6F8D8425D955F1002F34A6 /* Day37_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6F8D8325D955F1002F34A6 /* Day37_ViewController.swift */; };
 		AB6F8D8825D95692002F34A6 /* Day37_Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6F8D8725D95692002F34A6 /* Day37_Renderer.swift */; };
 		AB6F8D9625D958EB002F34A6 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = AB6F8D9525D958EB002F34A6 /* Shaders.metal */; };
+		AB6F8DA025D977C8002F34A6 /* Day38.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6F8D9F25D977C8002F34A6 /* Day38.storyboard */; };
+		AB6F8DA325D977D7002F34A6 /* Day38_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6F8DA225D977D7002F34A6 /* Day38_ViewController.swift */; };
 		AB7749D525A63577001900F1 /* Day6_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7749D425A63577001900F1 /* Day6_ViewController.swift */; };
 		AB7749D925A63582001900F1 /* Day6.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7749D825A63582001900F1 /* Day6.storyboard */; };
 		AB774A0125ACF2E5001900F1 /* Day10_Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7749FD25ACF2E5001900F1 /* Day10_Renderer.swift */; };
@@ -116,6 +118,8 @@
 		AB6F8D8725D95692002F34A6 /* Day37_Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day37_Renderer.swift; sourceTree = "<group>"; };
 		AB6F8D9325D958E1002F34A6 /* Day37_ShaderTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day37_ShaderTypes.h; sourceTree = "<group>"; };
 		AB6F8D9525D958EB002F34A6 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		AB6F8D9F25D977C8002F34A6 /* Day38.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day38.storyboard; sourceTree = "<group>"; };
+		AB6F8DA225D977D7002F34A6 /* Day38_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day38_ViewController.swift; sourceTree = "<group>"; };
 		AB7749D425A63577001900F1 /* Day6_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6_ViewController.swift; sourceTree = "<group>"; };
 		AB7749D825A63582001900F1 /* Day6.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day6.storyboard; sourceTree = "<group>"; };
 		AB7749F125ACEA60001900F1 /* ShaderTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
@@ -240,6 +244,7 @@
 		AB5BC769259F439E002EDF35 /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				AB6F8D9E25D977B9002F34A6 /* Day38 */,
 				AB6F8D7F25D955CF002F34A6 /* Day37 */,
 				AB6F8D7425D903BA002F34A6 /* Day36 */,
 				AB6F8D5925CF28D5002F34A6 /* Day31 */,
@@ -318,6 +323,15 @@
 				AB6F8D8025D955E3002F34A6 /* Day37.storyboard */,
 			);
 			path = Day37;
+			sourceTree = "<group>";
+		};
+		AB6F8D9E25D977B9002F34A6 /* Day38 */ = {
+			isa = PBXGroup;
+			children = (
+				AB6F8DA225D977D7002F34A6 /* Day38_ViewController.swift */,
+				AB6F8D9F25D977C8002F34A6 /* Day38.storyboard */,
+			);
+			path = Day38;
 			sourceTree = "<group>";
 		};
 		AB7749D325A63369001900F1 /* Day6 */ = {
@@ -600,6 +614,7 @@
 				AB6F8D7625D903CC002F34A6 /* Day36.storyboard in Resources */,
 				ABF68EAC25C6BCC0007C9BB7 /* wood.png in Resources */,
 				AB5BC75C259F4282002EDF35 /* Assets.xcassets in Resources */,
+				AB6F8DA025D977C8002F34A6 /* Day38.storyboard in Resources */,
 				ABF68EA925C6B988007C9BB7 /* SceneKitAssets.scnassets in Resources */,
 				ABF68E8B25C5D6D8007C9BB7 /* Day27.storyboard in Resources */,
 				ABF68EA025C6B20C007C9BB7 /* splash.png in Resources */,
@@ -645,6 +660,7 @@
 				ABE1A06E25BC89E00034AC0A /* OSLog+Helpers.swift in Sources */,
 				AB774A0225ACF2E5001900F1 /* Day10_Shaders.metal in Sources */,
 				ABE952C525A374BD00050AEC /* Day4_Renderer.swift in Sources */,
+				AB6F8DA325D977D7002F34A6 /* Day38_ViewController.swift in Sources */,
 				ABE19FD025BBE86D0034AC0A /* VoxelEntity.swift in Sources */,
 				AB5BC7C625A09BB9002EDF35 /* Day2_shaders.metal in Sources */,
 				AB6F8D8425D955F1002F34A6 /* Day37_ViewController.swift in Sources */,
