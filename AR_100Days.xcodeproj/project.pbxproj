@@ -22,6 +22,8 @@
 		AB5BC7C725A09BB9002EDF35 /* PlaneNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BC7C525A09BB9002EDF35 /* PlaneNode.swift */; };
 		AB5BC7CE25A09BF6002EDF35 /* SCNVectorHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BC7CB25A09BF6002EDF35 /* SCNVectorHelpers.swift */; };
 		AB5BC7CF25A09BF6002EDF35 /* ScnMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BC7CC25A09BF6002EDF35 /* ScnMatrix.swift */; };
+		AB5D624325E159E1009BB647 /* Day40_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5D624225E159E1009BB647 /* Day40_ViewController.swift */; };
+		AB5D624725E159E9009BB647 /* Day40.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5D624625E159E9009BB647 /* Day40.storyboard */; };
 		AB6F8D5B25CF28E8002F34A6 /* Day31_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6F8D5A25CF28E8002F34A6 /* Day31_ViewController.swift */; };
 		AB6F8D5F25CF28F8002F34A6 /* Day31.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6F8D5E25CF28F8002F34A6 /* Day31.storyboard */; };
 		AB6F8D7625D903CC002F34A6 /* Day36.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6F8D7525D903CC002F34A6 /* Day36.storyboard */; };
@@ -109,6 +111,8 @@
 		AB5BC7C525A09BB9002EDF35 /* PlaneNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaneNode.swift; sourceTree = "<group>"; };
 		AB5BC7CB25A09BF6002EDF35 /* SCNVectorHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCNVectorHelpers.swift; sourceTree = "<group>"; };
 		AB5BC7CC25A09BF6002EDF35 /* ScnMatrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScnMatrix.swift; sourceTree = "<group>"; };
+		AB5D624225E159E1009BB647 /* Day40_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day40_ViewController.swift; sourceTree = "<group>"; };
+		AB5D624625E159E9009BB647 /* Day40.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day40.storyboard; sourceTree = "<group>"; };
 		AB6F8D5A25CF28E8002F34A6 /* Day31_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day31_ViewController.swift; sourceTree = "<group>"; };
 		AB6F8D5E25CF28F8002F34A6 /* Day31.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day31.storyboard; sourceTree = "<group>"; };
 		AB6F8D7525D903CC002F34A6 /* Day36.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day36.storyboard; sourceTree = "<group>"; };
@@ -244,6 +248,7 @@
 		AB5BC769259F439E002EDF35 /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				AB5D624125E159D0009BB647 /* Day40 */,
 				AB6F8D9E25D977B9002F34A6 /* Day38 */,
 				AB6F8D7F25D955CF002F34A6 /* Day37 */,
 				AB6F8D7425D903BA002F34A6 /* Day36 */,
@@ -293,6 +298,15 @@
 				AB5BC7CC25A09BF6002EDF35 /* ScnMatrix.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AB5D624125E159D0009BB647 /* Day40 */ = {
+			isa = PBXGroup;
+			children = (
+				AB5D624225E159E1009BB647 /* Day40_ViewController.swift */,
+				AB5D624625E159E9009BB647 /* Day40.storyboard */,
+			);
+			path = Day40;
 			sourceTree = "<group>";
 		};
 		AB6F8D5925CF28D5002F34A6 /* Day31 */ = {
@@ -601,6 +615,7 @@
 				ABE952DE25A51C9700050AEC /* Day5.storyboard in Resources */,
 				AB7749D925A63582001900F1 /* Day6.storyboard in Resources */,
 				AB5BC75F259F4282002EDF35 /* LaunchScreen.storyboard in Resources */,
+				AB5D624725E159E9009BB647 /* Day40.storyboard in Resources */,
 				ABE19FFE25BC2E5A0034AC0A /* voxelRoughness.png in Resources */,
 				ABF68EA125C6B20C007C9BB7 /* wood-normal.png in Resources */,
 				ABF68E9C25C6940E007C9BB7 /* Day28.storyboard in Resources */,
@@ -665,6 +680,7 @@
 				AB5BC7C625A09BB9002EDF35 /* Day2_shaders.metal in Sources */,
 				AB6F8D8425D955F1002F34A6 /* Day37_ViewController.swift in Sources */,
 				ABE1A03125BC72AF0034AC0A /* MetalParticles.swift in Sources */,
+				AB5D624325E159E1009BB647 /* Day40_ViewController.swift in Sources */,
 				ABE19FCE25BBE86D0034AC0A /* Voxel.swift in Sources */,
 				ABE952E425A51D4600050AEC /* Day5_Shaders.metal in Sources */,
 				AB5BC757259F4280002EDF35 /* RootViewController.swift in Sources */,
