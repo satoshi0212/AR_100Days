@@ -53,6 +53,12 @@ struct DaysDataSource {
             enabled: true
         ),
         Day(
+            title: "11: Only red and human color",
+            detail: "",
+            classPrefix: "Day11",
+            enabled: true
+        ),
+        Day(
             title: "18: Slash multi camera(Landscape)",
             detail: "",
             classPrefix: "Day18",
@@ -101,7 +107,7 @@ struct DaysDataSource {
             enabled: true
         ),
         Day(
-            title: "37: Pink smog",
+            title: "37: LiDAR: Pink smog",
             detail: "",
             classPrefix: "Day37",
             enabled: true
