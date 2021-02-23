@@ -77,6 +77,12 @@ struct DaysDataSource {
             enabled: true
         ),
         Day(
+            title: "22: Blue portal",
+            detail: "",
+            classPrefix: "Day22",
+            enabled: true
+        ),
+        Day(
             title: "26: Gaze tracking",
             detail: "",
             classPrefix: "Day26",
