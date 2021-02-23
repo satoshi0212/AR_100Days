@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB2B523025E4AF3200101FEA /* Day42.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2B522F25E4AF3200101FEA /* Day42.storyboard */; };
+		AB2B523325E4AF4100101FEA /* Day42_ViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B523225E4AF4100101FEA /* Day42_ViewContoller.swift */; };
 		AB5BC753259F4280002EDF35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BC752259F4280002EDF35 /* AppDelegate.swift */; };
 		AB5BC755259F4280002EDF35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BC754259F4280002EDF35 /* SceneDelegate.swift */; };
 		AB5BC757259F4280002EDF35 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BC756259F4280002EDF35 /* RootViewController.swift */; };
@@ -102,6 +104,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB2B522F25E4AF3200101FEA /* Day42.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day42.storyboard; sourceTree = "<group>"; };
+		AB2B523225E4AF4100101FEA /* Day42_ViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day42_ViewContoller.swift; sourceTree = "<group>"; };
 		AB5BC74F259F4280002EDF35 /* AR_100Days.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AR_100Days.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5BC752259F4280002EDF35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB5BC754259F4280002EDF35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -214,6 +218,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB2B522E25E4AF2800101FEA /* Day42 */ = {
+			isa = PBXGroup;
+			children = (
+				AB2B523225E4AF4100101FEA /* Day42_ViewContoller.swift */,
+				AB2B522F25E4AF3200101FEA /* Day42.storyboard */,
+			);
+			path = Day42;
+			sourceTree = "<group>";
+		};
 		AB5BC746259F4280002EDF35 = {
 			isa = PBXGroup;
 			children = (
@@ -265,6 +278,7 @@
 		AB5BC769259F439E002EDF35 /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				AB2B522E25E4AF2800101FEA /* Day42 */,
 				AB5D624925E162A0009BB647 /* Day41 */,
 				AB5D624125E159D0009BB647 /* Day40 */,
 				AB6F8D9E25D977B9002F34A6 /* Day38 */,
@@ -681,6 +695,7 @@
 				AB6F8D7625D903CC002F34A6 /* Day36.storyboard in Resources */,
 				ABF68EAC25C6BCC0007C9BB7 /* wood.png in Resources */,
 				AB5BC75C259F4282002EDF35 /* Assets.xcassets in Resources */,
+				AB2B523025E4AF3200101FEA /* Day42.storyboard in Resources */,
 				AB6F8DA025D977C8002F34A6 /* Day38.storyboard in Resources */,
 				ABF68EA925C6B988007C9BB7 /* SceneKitAssets.scnassets in Resources */,
 				ABF68E8B25C5D6D8007C9BB7 /* Day27.storyboard in Resources */,
@@ -725,6 +740,7 @@
 				ABE19FDA25BC21230034AC0A /* InputSystem.swift in Sources */,
 				AB6F8D9625D958EB002F34A6 /* Shaders.metal in Sources */,
 				AB5D624E25E162C1009BB647 /* Day41_ViewController.swift in Sources */,
+				AB2B523325E4AF4100101FEA /* Day42_ViewContoller.swift in Sources */,
 				AB6F8D8825D95692002F34A6 /* Day37_Renderer.swift in Sources */,
 				ABE19FC725BBE6F90034AC0A /* Day20_ViewController.swift in Sources */,
 				ABE1A03425BC72AF0034AC0A /* MetalModel.swift in Sources */,
