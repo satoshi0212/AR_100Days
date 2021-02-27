@@ -115,7 +115,7 @@ private class VideoTexturedFace: TexturedFace {
             let faceMeshGeometry = ARSCNFaceGeometry(device: sceneView.device!, fillMesh: true)!
             let materialMesh = faceMeshGeometry.firstMaterial!
             materialMesh.lightingModel = .constant
-            materialMesh.diffuse.contents =  UIImage(named: "day40")
+            materialMesh.diffuse.contents =  UIImage(named: "facemap_yellow")
             contentNode = SCNNode(geometry: faceMeshGeometry)
             return contentNode
         }
