@@ -8,7 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		AB2B523025E4AF3200101FEA /* Day42.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2B522F25E4AF3200101FEA /* Day42.storyboard */; };
-		AB2B523325E4AF4100101FEA /* Day42_ViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B523225E4AF4100101FEA /* Day42_ViewContoller.swift */; };
+		AB2B523325E4AF4100101FEA /* Day42_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B523225E4AF4100101FEA /* Day42_ViewController.swift */; };
+		AB2B523A25E9ED1100101FEA /* Day43.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2B523925E9ED1100101FEA /* Day43.storyboard */; };
+		AB2B523D25E9ED1D00101FEA /* Day43_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B523C25E9ED1D00101FEA /* Day43_ViewController.swift */; };
+		AB2B524125E9FBDA00101FEA /* VideoTexturedFace.shader in Resources */ = {isa = PBXBuildFile; fileRef = AB2B524025E9FBDA00101FEA /* VideoTexturedFace.shader */; };
 		AB5BC753259F4280002EDF35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BC752259F4280002EDF35 /* AppDelegate.swift */; };
 		AB5BC755259F4280002EDF35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BC754259F4280002EDF35 /* SceneDelegate.swift */; };
 		AB5BC757259F4280002EDF35 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BC756259F4280002EDF35 /* RootViewController.swift */; };
@@ -105,7 +108,10 @@
 
 /* Begin PBXFileReference section */
 		AB2B522F25E4AF3200101FEA /* Day42.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day42.storyboard; sourceTree = "<group>"; };
-		AB2B523225E4AF4100101FEA /* Day42_ViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day42_ViewContoller.swift; sourceTree = "<group>"; };
+		AB2B523225E4AF4100101FEA /* Day42_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day42_ViewController.swift; sourceTree = "<group>"; };
+		AB2B523925E9ED1100101FEA /* Day43.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day43.storyboard; sourceTree = "<group>"; };
+		AB2B523C25E9ED1D00101FEA /* Day43_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day43_ViewController.swift; sourceTree = "<group>"; };
+		AB2B524025E9FBDA00101FEA /* VideoTexturedFace.shader */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VideoTexturedFace.shader; sourceTree = "<group>"; };
 		AB5BC74F259F4280002EDF35 /* AR_100Days.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AR_100Days.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5BC752259F4280002EDF35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB5BC754259F4280002EDF35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -221,10 +227,19 @@
 		AB2B522E25E4AF2800101FEA /* Day42 */ = {
 			isa = PBXGroup;
 			children = (
-				AB2B523225E4AF4100101FEA /* Day42_ViewContoller.swift */,
+				AB2B523225E4AF4100101FEA /* Day42_ViewController.swift */,
 				AB2B522F25E4AF3200101FEA /* Day42.storyboard */,
 			);
 			path = Day42;
+			sourceTree = "<group>";
+		};
+		AB2B523825E9ED0700101FEA /* Day43 */ = {
+			isa = PBXGroup;
+			children = (
+				AB2B523C25E9ED1D00101FEA /* Day43_ViewController.swift */,
+				AB2B523925E9ED1100101FEA /* Day43.storyboard */,
+			);
+			path = Day43;
 			sourceTree = "<group>";
 		};
 		AB5BC746259F4280002EDF35 = {
@@ -267,6 +282,7 @@
 		AB5BC768259F4396002EDF35 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AB2B524025E9FBDA00101FEA /* VideoTexturedFace.shader */,
 				ABF68EAB25C6BCC0007C9BB7 /* wood.png */,
 				ABF68E9E25C6B20C007C9BB7 /* splash.png */,
 				ABF68E9F25C6B20C007C9BB7 /* wood-normal.png */,
@@ -278,6 +294,7 @@
 		AB5BC769259F439E002EDF35 /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				AB2B523825E9ED0700101FEA /* Day43 */,
 				AB2B522E25E4AF2800101FEA /* Day42 */,
 				AB5D624925E162A0009BB647 /* Day41 */,
 				AB5D624125E159D0009BB647 /* Day40 */,
@@ -670,6 +687,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB2B524125E9FBDA00101FEA /* VideoTexturedFace.shader in Resources */,
 				ABE1A00E25BC68800034AC0A /* Day21.storyboard in Resources */,
 				AB5BC7A4259F68C4002EDF35 /* Day1.storyboard in Resources */,
 				ABE1A00025BC2E5A0034AC0A /* Voxel_Cage.usdz in Resources */,
@@ -690,6 +708,7 @@
 				ABE19FFC25BC2E5A0034AC0A /* voxelBaseColor.png in Resources */,
 				ABE952BF25A3745200050AEC /* Day4.storyboard in Resources */,
 				AB5BC7A1259F68C4002EDF35 /* sample_320x240.mp4 in Resources */,
+				AB2B523A25E9ED1100101FEA /* Day43.storyboard in Resources */,
 				ABE19FC425BBE6E50034AC0A /* Day20.storyboard in Resources */,
 				AB5D627125E29A4B009BB647 /* Day22.storyboard in Resources */,
 				AB6F8D7625D903CC002F34A6 /* Day36.storyboard in Resources */,
@@ -735,12 +754,13 @@
 				ABE19FCF25BBE86D0034AC0A /* VoxelCursor.swift in Sources */,
 				ABE1A06F25BC89E00034AC0A /* Easing.swift in Sources */,
 				ABE1A01325BC6E770034AC0A /* Day21_Classifications.swift in Sources */,
+				AB2B523D25E9ED1D00101FEA /* Day43_ViewController.swift in Sources */,
 				AB9FA57425B9B58600AA3AA1 /* Day18_ViewController.swift in Sources */,
 				AB5BC7C225A09B20002EDF35 /* Day2_ViewController.swift in Sources */,
 				ABE19FDA25BC21230034AC0A /* InputSystem.swift in Sources */,
 				AB6F8D9625D958EB002F34A6 /* Shaders.metal in Sources */,
 				AB5D624E25E162C1009BB647 /* Day41_ViewController.swift in Sources */,
-				AB2B523325E4AF4100101FEA /* Day42_ViewContoller.swift in Sources */,
+				AB2B523325E4AF4100101FEA /* Day42_ViewController.swift in Sources */,
 				AB6F8D8825D95692002F34A6 /* Day37_Renderer.swift in Sources */,
 				ABE19FC725BBE6F90034AC0A /* Day20_ViewController.swift in Sources */,
 				ABE1A03425BC72AF0034AC0A /* MetalModel.swift in Sources */,
