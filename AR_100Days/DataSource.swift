@@ -154,5 +154,11 @@ struct DaysDataSource {
             classPrefix: "Day43",
             enabled: true
         ),
+        Day(
+            title: "44: Copy facemap wip",
+            detail: "",
+            classPrefix: "Day44",
+            enabled: true
+        ),
     ]
 }
