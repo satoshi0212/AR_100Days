@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tij-dS-Can">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Day45 View Controller-->
+        <scene sceneID="7c1-06-PfK">
+            <objects>
+                <viewController storyboardIdentifier="Day45_ViewController" id="tij-dS-Can" customClass="Day45_ViewController" customModule="AR_100Days" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zSV-mx-ufu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RuI-r4-CUa">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </arscnView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="tfW-8M-P92"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="RuI-r4-CUa" firstAttribute="top" secondItem="zSV-mx-ufu" secondAttribute="top" id="7aF-Ru-1Yt"/>
+                            <constraint firstAttribute="trailing" secondItem="RuI-r4-CUa" secondAttribute="trailing" id="VUc-r7-fn4"/>
+                            <constraint firstItem="RuI-r4-CUa" firstAttribute="leading" secondItem="zSV-mx-ufu" secondAttribute="leading" id="agL-ch-hHs"/>
+                            <constraint firstAttribute="bottom" secondItem="RuI-r4-CUa" secondAttribute="bottom" id="f4j-Vm-e2f"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="scnView" destination="RuI-r4-CUa" id="w1v-kQ-ObS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kyY-Ig-C9K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-357" y="94"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
