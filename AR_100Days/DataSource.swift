@@ -166,5 +166,11 @@ struct DaysDataSource {
             classPrefix: "Day45",
             enabled: true
         ),
+        Day(
+            title: "46: Failed: AR Camera to SCNScene",
+            detail: "",
+            classPrefix: "Day46",
+            enabled: true
+        ),
     ]
 }

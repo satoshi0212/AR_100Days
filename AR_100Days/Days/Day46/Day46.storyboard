@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="E3H-rJ-pcp">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Day46 View Controller-->
+        <scene sceneID="dGU-cs-oEA">
+            <objects>
+                <viewController storyboardIdentifier="Day46_ViewController" id="E3H-rJ-pcp" customClass="Day46_ViewController" customModule="AR_100Days" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qa7-Yx-fid">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="baf-xC-98Y">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eIr-9r-lGo">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="448"/>
+                                    </arscnView>
+                                    <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6QE-bs-c2H">
+                                        <rect key="frame" x="0.0" y="448" width="414" height="448"/>
+                                    </sceneKitView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KH6-Bu-ABj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="baf-xC-98Y" secondAttribute="bottom" id="O1i-Ef-Xtk"/>
+                            <constraint firstItem="baf-xC-98Y" firstAttribute="leading" secondItem="qa7-Yx-fid" secondAttribute="leading" id="dSl-bm-PZw"/>
+                            <constraint firstItem="baf-xC-98Y" firstAttribute="top" secondItem="qa7-Yx-fid" secondAttribute="top" id="uxw-zq-QZy"/>
+                            <constraint firstAttribute="trailing" secondItem="baf-xC-98Y" secondAttribute="trailing" id="zgD-xm-o1T"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="arscnView" destination="eIr-9r-lGo" id="YU6-yY-YGY"/>
+                        <outlet property="mainView" destination="6QE-bs-c2H" id="pq3-LC-fq6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qg6-iw-TMP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="94"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
