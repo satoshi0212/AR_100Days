@@ -62,6 +62,10 @@
 		AB774A0425ACF2E5001900F1 /* Day10.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB774A0025ACF2E5001900F1 /* Day10.storyboard */; };
 		AB9FA57125B9B57100AA3AA1 /* Day18.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9FA57025B9B57100AA3AA1 /* Day18.storyboard */; };
 		AB9FA57425B9B58600AA3AA1 /* Day18_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9FA57325B9B58600AA3AA1 /* Day18_ViewController.swift */; };
+		ABDCDDF02607AB2500EB4555 /* Day47.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDCDDEF2607AB2500EB4555 /* Day47.storyboard */; };
+		ABDCDDF32607AB3100EB4555 /* Day47_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDCDDF22607AB3100EB4555 /* Day47_ViewController.swift */; };
+		ABDCDDF82607B22300EB4555 /* camera_click_001.wav in Resources */ = {isa = PBXBuildFile; fileRef = ABDCDDF72607B22300EB4555 /* camera_click_001.wav */; };
+		ABDCDDFB2607B27C00EB4555 /* impact-001.wav in Resources */ = {isa = PBXBuildFile; fileRef = ABDCDDFA2607B27C00EB4555 /* impact-001.wav */; };
 		ABE19FC425BBE6E50034AC0A /* Day20.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE19FC325BBE6E50034AC0A /* Day20.storyboard */; };
 		ABE19FC725BBE6F90034AC0A /* Day20_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE19FC625BBE6F90034AC0A /* Day20_ViewController.swift */; };
 		ABE19FCD25BBE86D0034AC0A /* Voxels.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE19FC925BBE86D0034AC0A /* Voxels.swift */; };
@@ -174,6 +178,10 @@
 		AB774A0025ACF2E5001900F1 /* Day10.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Day10.storyboard; sourceTree = "<group>"; };
 		AB9FA57025B9B57100AA3AA1 /* Day18.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day18.storyboard; sourceTree = "<group>"; };
 		AB9FA57325B9B58600AA3AA1 /* Day18_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day18_ViewController.swift; sourceTree = "<group>"; };
+		ABDCDDEF2607AB2500EB4555 /* Day47.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day47.storyboard; sourceTree = "<group>"; };
+		ABDCDDF22607AB3100EB4555 /* Day47_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day47_ViewController.swift; sourceTree = "<group>"; };
+		ABDCDDF72607B22300EB4555 /* camera_click_001.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = camera_click_001.wav; sourceTree = "<group>"; };
+		ABDCDDFA2607B27C00EB4555 /* impact-001.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "impact-001.wav"; sourceTree = "<group>"; };
 		ABE19FC325BBE6E50034AC0A /* Day20.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day20.storyboard; sourceTree = "<group>"; };
 		ABE19FC625BBE6F90034AC0A /* Day20_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day20_ViewController.swift; sourceTree = "<group>"; };
 		ABE19FC925BBE86D0034AC0A /* Voxels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Voxels.swift; sourceTree = "<group>"; };
@@ -306,6 +314,8 @@
 		AB5BC768259F4396002EDF35 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				ABDCDDFA2607B27C00EB4555 /* impact-001.wav */,
+				ABDCDDF72607B22300EB4555 /* camera_click_001.wav */,
 				AB2B524025E9FBDA00101FEA /* VideoTexturedFace.shader */,
 				ABF68EAB25C6BCC0007C9BB7 /* wood.png */,
 				ABF68E9E25C6B20C007C9BB7 /* splash.png */,
@@ -318,6 +328,7 @@
 		AB5BC769259F439E002EDF35 /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				ABDCDDEE26076E3200EB4555 /* Day47 */,
 				AB6A924925F50315008274C8 /* Day46 */,
 				AB6A924125F4A40E008274C8 /* Day45 */,
 				AB2B524425EA1C1C00101FEA /* Day44 */,
@@ -501,6 +512,15 @@
 				AB9FA57025B9B57100AA3AA1 /* Day18.storyboard */,
 			);
 			path = Day18;
+			sourceTree = "<group>";
+		};
+		ABDCDDEE26076E3200EB4555 /* Day47 */ = {
+			isa = PBXGroup;
+			children = (
+				ABDCDDF22607AB3100EB4555 /* Day47_ViewController.swift */,
+				ABDCDDEF2607AB2500EB4555 /* Day47.storyboard */,
+			);
+			path = Day47;
 			sourceTree = "<group>";
 		};
 		ABE19FC225BBE6B20034AC0A /* Day20 */ = {
@@ -755,6 +775,7 @@
 				ABE1A06225BC864C0034AC0A /* cone.usdz in Resources */,
 				ABE19FFC25BC2E5A0034AC0A /* voxelBaseColor.png in Resources */,
 				ABE952BF25A3745200050AEC /* Day4.storyboard in Resources */,
+				ABDCDDF82607B22300EB4555 /* camera_click_001.wav in Resources */,
 				AB5BC7A1259F68C4002EDF35 /* sample_320x240.mp4 in Resources */,
 				AB2B523A25E9ED1100101FEA /* Day43.storyboard in Resources */,
 				ABE19FC425BBE6E50034AC0A /* Day20.storyboard in Resources */,
@@ -764,6 +785,8 @@
 				AB2B524C25EB9C6B00101FEA /* Day44_VideoTexturedFace.shader in Resources */,
 				AB5BC75C259F4282002EDF35 /* Assets.xcassets in Resources */,
 				AB2B523025E4AF3200101FEA /* Day42.storyboard in Resources */,
+				ABDCDDF02607AB2500EB4555 /* Day47.storyboard in Resources */,
+				ABDCDDFB2607B27C00EB4555 /* impact-001.wav in Resources */,
 				AB6F8DA025D977C8002F34A6 /* Day38.storyboard in Resources */,
 				ABF68EA925C6B988007C9BB7 /* SceneKitAssets.scnassets in Resources */,
 				ABF68E8B25C5D6D8007C9BB7 /* Day27.storyboard in Resources */,
@@ -811,6 +834,7 @@
 				AB5BC7C225A09B20002EDF35 /* Day2_ViewController.swift in Sources */,
 				ABE19FDA25BC21230034AC0A /* InputSystem.swift in Sources */,
 				AB6F8D9625D958EB002F34A6 /* Shaders.metal in Sources */,
+				ABDCDDF32607AB3100EB4555 /* Day47_ViewController.swift in Sources */,
 				AB5D624E25E162C1009BB647 /* Day41_ViewController.swift in Sources */,
 				AB2B523325E4AF4100101FEA /* Day42_ViewController.swift in Sources */,
 				AB6F8D8825D95692002F34A6 /* Day37_Renderer.swift in Sources */,

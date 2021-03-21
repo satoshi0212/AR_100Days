@@ -29,7 +29,7 @@ struct DaysDataSource {
             enabled: true
         ),
         Day(
-            title: "4: LiDAR: Metal",
+            title: "4: LiDAR Landscape: Metal",
             detail: "",
             classPrefix: "Day4",
             enabled: true
@@ -172,5 +172,12 @@ struct DaysDataSource {
             classPrefix: "Day46",
             enabled: true
         ),
+        Day(
+            title: "47: Display words",
+            detail: "",
+            classPrefix: "Day47",
+            enabled: true
+        ),
+
     ]
 }

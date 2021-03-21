@@ -164,7 +164,7 @@ extension Day38_ViewController: ARSessionDelegate {
         for anchor in anchors {
             //var sceneNode: SCNNode?
 
-            if let planeAnchor = anchor as? ARPlaneAnchor {
+            if anchor is ARPlaneAnchor {
                 //let planeGeo = ARSCNPlaneGeometry(device: device)!
 
                 let planeGeo = SCNPlane(width: 1.5, height: 1.5)
