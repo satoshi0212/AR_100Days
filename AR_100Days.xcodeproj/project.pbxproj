@@ -68,6 +68,10 @@
 		ABDCDDFB2607B27C00EB4555 /* impact-001.wav in Resources */ = {isa = PBXBuildFile; fileRef = ABDCDDFA2607B27C00EB4555 /* impact-001.wav */; };
 		ABDCDDFF2607DB2E00EB4555 /* Day48.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDCDDFE2607DB2E00EB4555 /* Day48.storyboard */; };
 		ABDCDE022607DB3A00EB4555 /* Day48_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDCDE012607DB3A00EB4555 /* Day48_ViewController.swift */; };
+		ABDCDE122610F3FE00EB4555 /* Day50.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDCDE112610F3FE00EB4555 /* Day50.storyboard */; };
+		ABDCDE152610F40B00EB4555 /* Day50_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDCDE142610F40B00EB4555 /* Day50_ViewController.swift */; };
+		ABDCDE192610F90D00EB4555 /* SHiNiNG.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ABDCDE182610F90D00EB4555 /* SHiNiNG.mp4 */; };
+		ABDCDE1C26146AD500EB4555 /* live_001.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ABDCDE1B26146AD500EB4555 /* live_001.mp4 */; };
 		ABE19FC425BBE6E50034AC0A /* Day20.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE19FC325BBE6E50034AC0A /* Day20.storyboard */; };
 		ABE19FC725BBE6F90034AC0A /* Day20_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE19FC625BBE6F90034AC0A /* Day20_ViewController.swift */; };
 		ABE19FCD25BBE86D0034AC0A /* Voxels.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE19FC925BBE86D0034AC0A /* Voxels.swift */; };
@@ -186,6 +190,10 @@
 		ABDCDDFA2607B27C00EB4555 /* impact-001.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "impact-001.wav"; sourceTree = "<group>"; };
 		ABDCDDFE2607DB2E00EB4555 /* Day48.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day48.storyboard; sourceTree = "<group>"; };
 		ABDCDE012607DB3A00EB4555 /* Day48_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day48_ViewController.swift; sourceTree = "<group>"; };
+		ABDCDE112610F3FE00EB4555 /* Day50.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day50.storyboard; sourceTree = "<group>"; };
+		ABDCDE142610F40B00EB4555 /* Day50_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day50_ViewController.swift; sourceTree = "<group>"; };
+		ABDCDE182610F90D00EB4555 /* SHiNiNG.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SHiNiNG.mp4; sourceTree = "<group>"; };
+		ABDCDE1B26146AD500EB4555 /* live_001.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = live_001.mp4; sourceTree = "<group>"; };
 		ABE19FC325BBE6E50034AC0A /* Day20.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day20.storyboard; sourceTree = "<group>"; };
 		ABE19FC625BBE6F90034AC0A /* Day20_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day20_ViewController.swift; sourceTree = "<group>"; };
 		ABE19FC925BBE86D0034AC0A /* Voxels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Voxels.swift; sourceTree = "<group>"; };
@@ -318,6 +326,8 @@
 		AB5BC768259F4396002EDF35 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				ABDCDE1B26146AD500EB4555 /* live_001.mp4 */,
+				ABDCDE182610F90D00EB4555 /* SHiNiNG.mp4 */,
 				ABDCDDFA2607B27C00EB4555 /* impact-001.wav */,
 				ABDCDDF72607B22300EB4555 /* camera_click_001.wav */,
 				AB2B524025E9FBDA00101FEA /* VideoTexturedFace.shader */,
@@ -332,6 +342,7 @@
 		AB5BC769259F439E002EDF35 /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				ABDCDE102610F3F000EB4555 /* Day50 */,
 				ABDCDDFD2607DB2300EB4555 /* Day48 */,
 				ABDCDDEE26076E3200EB4555 /* Day47 */,
 				AB6A924925F50315008274C8 /* Day46 */,
@@ -535,6 +546,15 @@
 				ABDCDDFE2607DB2E00EB4555 /* Day48.storyboard */,
 			);
 			path = Day48;
+			sourceTree = "<group>";
+		};
+		ABDCDE102610F3F000EB4555 /* Day50 */ = {
+			isa = PBXGroup;
+			children = (
+				ABDCDE142610F40B00EB4555 /* Day50_ViewController.swift */,
+				ABDCDE112610F3FE00EB4555 /* Day50.storyboard */,
+			);
+			path = Day50;
 			sourceTree = "<group>";
 		};
 		ABE19FC225BBE6B20034AC0A /* Day20 */ = {
@@ -776,6 +796,8 @@
 				ABE19FFF25BC2E5A0034AC0A /* Voxel_White.usdz in Resources */,
 				ABE952DE25A51C9700050AEC /* Day5.storyboard in Resources */,
 				AB7749D925A63582001900F1 /* Day6.storyboard in Resources */,
+				ABDCDE122610F3FE00EB4555 /* Day50.storyboard in Resources */,
+				ABDCDE1C26146AD500EB4555 /* live_001.mp4 in Resources */,
 				AB5BC75F259F4282002EDF35 /* LaunchScreen.storyboard in Resources */,
 				AB5D624725E159E9009BB647 /* Day40.storyboard in Resources */,
 				AB5D624B25E162B1009BB647 /* Day41.storyboard in Resources */,
@@ -810,6 +832,7 @@
 				AB5BC7BF25A09B0F002EDF35 /* Day2.storyboard in Resources */,
 				AB5D625D25E25AC8009BB647 /* Day11.storyboard in Resources */,
 				AB6F8D8125D955E3002F34A6 /* Day37.storyboard in Resources */,
+				ABDCDE192610F90D00EB4555 /* SHiNiNG.mp4 in Resources */,
 				AB5BC75A259F4280002EDF35 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -823,6 +846,7 @@
 			files = (
 				AB5D626725E25D77009BB647 /* Shaders.metal in Sources */,
 				ABE19FCD25BBE86D0034AC0A /* Voxels.swift in Sources */,
+				ABDCDE152610F40B00EB4555 /* Day50_ViewController.swift in Sources */,
 				ABE1A03325BC72AF0034AC0A /* Shaders.metal in Sources */,
 				ABE1A01225BC6E770034AC0A /* Day21_GameManager.swift in Sources */,
 				ABE952CC25A375B500050AEC /* DataSource.swift in Sources */,
