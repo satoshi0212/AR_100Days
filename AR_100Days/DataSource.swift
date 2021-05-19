@@ -190,5 +190,11 @@ struct DaysDataSource {
             classPrefix: "Day50",
             enabled: true
         ),
+        Day(
+            title: "51: Extract 2D Facemap",
+            detail: "",
+            classPrefix: "Day51",
+            enabled: true
+        ),
     ]
 }
