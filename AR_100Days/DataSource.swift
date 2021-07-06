@@ -191,9 +191,15 @@ struct DaysDataSource {
             enabled: true
         ),
         Day(
-            title: "51: Extract 2D Facemap",
+            title: "51: Extract 2D FaceMap",
             detail: "",
             classPrefix: "Day51",
+            enabled: true
+        ),
+        Day(
+            title: "52: Audio reactive FaceMap",
+            detail: "",
+            classPrefix: "Day52",
             enabled: true
         ),
     ]

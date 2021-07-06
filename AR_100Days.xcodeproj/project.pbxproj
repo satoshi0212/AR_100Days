@@ -60,6 +60,8 @@
 		AB774A0225ACF2E5001900F1 /* Day10_Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = AB7749FE25ACF2E5001900F1 /* Day10_Shaders.metal */; };
 		AB774A0325ACF2E5001900F1 /* Day10_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7749FF25ACF2E5001900F1 /* Day10_ViewController.swift */; };
 		AB774A0425ACF2E5001900F1 /* Day10.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB774A0025ACF2E5001900F1 /* Day10.storyboard */; };
+		AB89116B26936FB300FFA03B /* Day52_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB89116A26936FB300FFA03B /* Day52_ViewController.swift */; };
+		AB89116F26936FC100FFA03B /* Day52.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB89116E26936FC100FFA03B /* Day52.storyboard */; };
 		AB9FA57125B9B57100AA3AA1 /* Day18.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9FA57025B9B57100AA3AA1 /* Day18.storyboard */; };
 		AB9FA57425B9B58600AA3AA1 /* Day18_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9FA57325B9B58600AA3AA1 /* Day18_ViewController.swift */; };
 		ABCC482C26546F2100199A4B /* Day51.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCC482B26546F2100199A4B /* Day51.storyboard */; };
@@ -185,6 +187,8 @@
 		AB7749FE25ACF2E5001900F1 /* Day10_Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Day10_Shaders.metal; sourceTree = "<group>"; };
 		AB7749FF25ACF2E5001900F1 /* Day10_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day10_ViewController.swift; sourceTree = "<group>"; };
 		AB774A0025ACF2E5001900F1 /* Day10.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Day10.storyboard; sourceTree = "<group>"; };
+		AB89116A26936FB300FFA03B /* Day52_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day52_ViewController.swift; sourceTree = "<group>"; };
+		AB89116E26936FC100FFA03B /* Day52.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day52.storyboard; sourceTree = "<group>"; };
 		AB9FA57025B9B57100AA3AA1 /* Day18.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day18.storyboard; sourceTree = "<group>"; };
 		AB9FA57325B9B58600AA3AA1 /* Day18_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day18_ViewController.swift; sourceTree = "<group>"; };
 		ABCC482B26546F2100199A4B /* Day51.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day51.storyboard; sourceTree = "<group>"; };
@@ -347,6 +351,7 @@
 		AB5BC769259F439E002EDF35 /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				AB891169269331D900FFA03B /* Day52 */,
 				ABCC482A26546F0F00199A4B /* Day51 */,
 				ABDCDE102610F3F000EB4555 /* Day50 */,
 				ABDCDDFD2607DB2300EB4555 /* Day48 */,
@@ -525,6 +530,15 @@
 				AB774A0025ACF2E5001900F1 /* Day10.storyboard */,
 			);
 			path = Day10;
+			sourceTree = "<group>";
+		};
+		AB891169269331D900FFA03B /* Day52 */ = {
+			isa = PBXGroup;
+			children = (
+				AB89116A26936FB300FFA03B /* Day52_ViewController.swift */,
+				AB89116E26936FC100FFA03B /* Day52.storyboard */,
+			);
+			path = Day52;
 			sourceTree = "<group>";
 		};
 		AB9FA56F25B9B55D00AA3AA1 /* Day18 */ = {
@@ -824,6 +838,7 @@
 				AB6A924325F4A419008274C8 /* Day45.storyboard in Resources */,
 				ABF68E9C25C6940E007C9BB7 /* Day28.storyboard in Resources */,
 				ABF68E8625C5C718007C9BB7 /* Day26.storyboard in Resources */,
+				AB89116F26936FC100FFA03B /* Day52.storyboard in Resources */,
 				AB774A0425ACF2E5001900F1 /* Day10.storyboard in Resources */,
 				AB2B524925EA1C3000101FEA /* Day44.storyboard in Resources */,
 				ABE1A06225BC864C0034AC0A /* cone.usdz in Resources */,
@@ -883,6 +898,7 @@
 				ABE952DB25A51C8300050AEC /* Day5_ViewController.swift in Sources */,
 				AB5BC7A0259F68C4002EDF35 /* Day1_ViewController.swift in Sources */,
 				ABE19FCF25BBE86D0034AC0A /* VoxelCursor.swift in Sources */,
+				AB89116B26936FB300FFA03B /* Day52_ViewController.swift in Sources */,
 				ABE1A06F25BC89E00034AC0A /* Easing.swift in Sources */,
 				AB6A924B25F50324008274C8 /* Day46_ViewController.swift in Sources */,
 				ABE1A01325BC6E770034AC0A /* Day21_Classifications.swift in Sources */,
