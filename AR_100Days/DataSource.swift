@@ -202,5 +202,11 @@ struct DaysDataSource {
             classPrefix: "Day52",
             enabled: true
         ),
+        Day(
+            title: "53: Audio reactive Shader face",
+            detail: "",
+            classPrefix: "Day53",
+            enabled: true
+        ),
     ]
 }
