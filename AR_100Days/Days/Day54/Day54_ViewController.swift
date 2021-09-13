@@ -66,9 +66,8 @@ class Day54_ViewController: UIViewController {
         let node = SCNNode()
         node.geometry = newGeometry
         node.position = camera.convertPosition(SCNVector3(x: 0, y: 0, z: -0.2), to: nil)
-        node.scale = SCNVector3(0.5, 0.5, 0.5)
         node.eulerAngles = camera.eulerAngles
-        
+
         sceneView.scene.rootNode.addChildNode(node)
     }
 }
