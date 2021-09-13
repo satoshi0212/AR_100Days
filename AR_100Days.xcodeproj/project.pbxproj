@@ -16,6 +16,8 @@
 		AB2B524925EA1C3000101FEA /* Day44.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2B524825EA1C3000101FEA /* Day44.storyboard */; };
 		AB2B524C25EB9C6B00101FEA /* Day44_VideoTexturedFace.shader in Resources */ = {isa = PBXBuildFile; fileRef = AB2B524B25EB9C6B00101FEA /* Day44_VideoTexturedFace.shader */; };
 		AB44F29826D10F1C005C0AF5 /* Day53_Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = AB44F29726D10F1C005C0AF5 /* Day53_Shader.metal */; };
+		AB44F29B26D2596D005C0AF5 /* Day54_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44F29A26D2596D005C0AF5 /* Day54_ViewController.swift */; };
+		AB44F29D26D25977005C0AF5 /* Day54.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB44F29C26D25977005C0AF5 /* Day54.storyboard */; };
 		AB5BC753259F4280002EDF35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BC752259F4280002EDF35 /* AppDelegate.swift */; };
 		AB5BC755259F4280002EDF35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BC754259F4280002EDF35 /* SceneDelegate.swift */; };
 		AB5BC757259F4280002EDF35 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BC756259F4280002EDF35 /* RootViewController.swift */; };
@@ -141,6 +143,8 @@
 		AB2B524825EA1C3000101FEA /* Day44.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day44.storyboard; sourceTree = "<group>"; };
 		AB2B524B25EB9C6B00101FEA /* Day44_VideoTexturedFace.shader */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day44_VideoTexturedFace.shader; sourceTree = "<group>"; };
 		AB44F29726D10F1C005C0AF5 /* Day53_Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Day53_Shader.metal; sourceTree = "<group>"; };
+		AB44F29A26D2596D005C0AF5 /* Day54_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day54_ViewController.swift; sourceTree = "<group>"; };
+		AB44F29C26D25977005C0AF5 /* Day54.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day54.storyboard; sourceTree = "<group>"; };
 		AB5BC74F259F4280002EDF35 /* AR_100Days.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AR_100Days.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5BC752259F4280002EDF35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB5BC754259F4280002EDF35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -302,6 +306,15 @@
 			path = Day44;
 			sourceTree = "<group>";
 		};
+		AB44F29926D2595D005C0AF5 /* Day54 */ = {
+			isa = PBXGroup;
+			children = (
+				AB44F29A26D2596D005C0AF5 /* Day54_ViewController.swift */,
+				AB44F29C26D25977005C0AF5 /* Day54.storyboard */,
+			);
+			path = Day54;
+			sourceTree = "<group>";
+		};
 		AB5BC746259F4280002EDF35 = {
 			isa = PBXGroup;
 			children = (
@@ -357,6 +370,7 @@
 		AB5BC769259F439E002EDF35 /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				AB44F29926D2595D005C0AF5 /* Day54 */,
 				AB89117226948D2800FFA03B /* Day53 */,
 				AB891169269331D900FFA03B /* Day52 */,
 				ABCC482A26546F0F00199A4B /* Day51 */,
@@ -846,6 +860,7 @@
 				AB89117426948D3200FFA03B /* Day53.storyboard in Resources */,
 				AB7749D925A63582001900F1 /* Day6.storyboard in Resources */,
 				ABDCDE122610F3FE00EB4555 /* Day50.storyboard in Resources */,
+				AB44F29D26D25977005C0AF5 /* Day54.storyboard in Resources */,
 				ABCC482C26546F2100199A4B /* Day51.storyboard in Resources */,
 				ABDCDE1C26146AD500EB4555 /* live_001.mp4 in Resources */,
 				AB5BC75F259F4282002EDF35 /* LaunchScreen.storyboard in Resources */,
@@ -961,6 +976,7 @@
 				ABCC4832265516EF00199A4B /* FaceTextureGenerator.swift in Sources */,
 				ABE1A06D25BC89E00034AC0A /* Extensions.swift in Sources */,
 				AB6F8D7925D903E1002F34A6 /* Day36_ViewController.swift in Sources */,
+				AB44F29B26D2596D005C0AF5 /* Day54_ViewController.swift in Sources */,
 				ABE1A03225BC72AF0034AC0A /* MetalRenderer.swift in Sources */,
 				AB5D626325E25AEC009BB647 /* Day11_Renderer.swift in Sources */,
 				ABE952E525A51D4600050AEC /* Day5_Renderer.swift in Sources */,

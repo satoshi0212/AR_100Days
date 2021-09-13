@@ -208,5 +208,11 @@ struct DaysDataSource {
             classPrefix: "Day53",
             enabled: true
         ),
+        Day(
+            title: "54: Change Face color by distance",
+            detail: "",
+            classPrefix: "Day54",
+            enabled: true
+        ),
     ]
 }
