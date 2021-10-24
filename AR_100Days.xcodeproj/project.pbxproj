@@ -63,6 +63,10 @@
 		AB774A0225ACF2E5001900F1 /* Day10_Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = AB7749FE25ACF2E5001900F1 /* Day10_Shaders.metal */; };
 		AB774A0325ACF2E5001900F1 /* Day10_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7749FF25ACF2E5001900F1 /* Day10_ViewController.swift */; };
 		AB774A0425ACF2E5001900F1 /* Day10.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB774A0025ACF2E5001900F1 /* Day10.storyboard */; };
+		AB846BF9271322CB00345D3F /* Day56.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB846BF8271322CB00345D3F /* Day56.storyboard */; };
+		AB846BFB271322D700345D3F /* Day56_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB846BFA271322D700345D3F /* Day56_ViewController.swift */; };
+		AB846BFF271326DB00345D3F /* PointCloudRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB846BFC271326DB00345D3F /* PointCloudRenderer.swift */; };
+		AB846C00271326DB00345D3F /* PointCloudShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = AB846BFE271326DB00345D3F /* PointCloudShaders.metal */; };
 		AB89116B26936FB300FFA03B /* Day52_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB89116A26936FB300FFA03B /* Day52_ViewController.swift */; };
 		AB89116F26936FC100FFA03B /* Day52.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB89116E26936FC100FFA03B /* Day52.storyboard */; };
 		AB89117426948D3200FFA03B /* Day53.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB89117326948D3200FFA03B /* Day53.storyboard */; };
@@ -197,6 +201,11 @@
 		AB7749FE25ACF2E5001900F1 /* Day10_Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Day10_Shaders.metal; sourceTree = "<group>"; };
 		AB7749FF25ACF2E5001900F1 /* Day10_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day10_ViewController.swift; sourceTree = "<group>"; };
 		AB774A0025ACF2E5001900F1 /* Day10.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Day10.storyboard; sourceTree = "<group>"; };
+		AB846BF8271322CB00345D3F /* Day56.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day56.storyboard; sourceTree = "<group>"; };
+		AB846BFA271322D700345D3F /* Day56_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day56_ViewController.swift; sourceTree = "<group>"; };
+		AB846BFC271326DB00345D3F /* PointCloudRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointCloudRenderer.swift; sourceTree = "<group>"; };
+		AB846BFD271326DB00345D3F /* Day56_ShaderTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day56_ShaderTypes.h; sourceTree = "<group>"; };
+		AB846BFE271326DB00345D3F /* PointCloudShaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = PointCloudShaders.metal; sourceTree = "<group>"; };
 		AB89116A26936FB300FFA03B /* Day52_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day52_ViewController.swift; sourceTree = "<group>"; };
 		AB89116E26936FC100FFA03B /* Day52.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day52.storyboard; sourceTree = "<group>"; };
 		AB89117326948D3200FFA03B /* Day53.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day53.storyboard; sourceTree = "<group>"; };
@@ -374,6 +383,7 @@
 		AB5BC769259F439E002EDF35 /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				AB846BF7271322BF00345D3F /* Day56 */,
 				ABA60F6A26EF17DD00C5E506 /* Day55 */,
 				AB44F29926D2595D005C0AF5 /* Day54 */,
 				AB89117226948D2800FFA03B /* Day53 */,
@@ -556,6 +566,18 @@
 				AB774A0025ACF2E5001900F1 /* Day10.storyboard */,
 			);
 			path = Day10;
+			sourceTree = "<group>";
+		};
+		AB846BF7271322BF00345D3F /* Day56 */ = {
+			isa = PBXGroup;
+			children = (
+				AB846BFC271326DB00345D3F /* PointCloudRenderer.swift */,
+				AB846BFE271326DB00345D3F /* PointCloudShaders.metal */,
+				AB846BFD271326DB00345D3F /* Day56_ShaderTypes.h */,
+				AB846BFA271322D700345D3F /* Day56_ViewController.swift */,
+				AB846BF8271322CB00345D3F /* Day56.storyboard */,
+			);
+			path = Day56;
 			sourceTree = "<group>";
 		};
 		AB891169269331D900FFA03B /* Day52 */ = {
@@ -897,6 +919,7 @@
 				AB2B523A25E9ED1100101FEA /* Day43.storyboard in Resources */,
 				ABE19FC425BBE6E50034AC0A /* Day20.storyboard in Resources */,
 				AB5D627125E29A4B009BB647 /* Day22.storyboard in Resources */,
+				AB846BF9271322CB00345D3F /* Day56.storyboard in Resources */,
 				AB6F8D7625D903CC002F34A6 /* Day36.storyboard in Resources */,
 				ABF68EAC25C6BCC0007C9BB7 /* wood.png in Resources */,
 				AB2B524C25EB9C6B00101FEA /* Day44_VideoTexturedFace.shader in Resources */,
@@ -953,8 +976,10 @@
 				ABE1A01325BC6E770034AC0A /* Day21_Classifications.swift in Sources */,
 				AB2B523D25E9ED1D00101FEA /* Day43_ViewController.swift in Sources */,
 				AB6A924625F4A425008274C8 /* Day45_ViewController.swift in Sources */,
+				AB846C00271326DB00345D3F /* PointCloudShaders.metal in Sources */,
 				AB9FA57425B9B58600AA3AA1 /* Day18_ViewController.swift in Sources */,
 				AB5BC7C225A09B20002EDF35 /* Day2_ViewController.swift in Sources */,
+				AB846BFF271326DB00345D3F /* PointCloudRenderer.swift in Sources */,
 				ABE19FDA25BC21230034AC0A /* InputSystem.swift in Sources */,
 				AB6F8D9625D958EB002F34A6 /* Shaders.metal in Sources */,
 				ABDCDDF32607AB3100EB4555 /* Day47_ViewController.swift in Sources */,
@@ -998,6 +1023,7 @@
 				ABE952E525A51D4600050AEC /* Day5_Renderer.swift in Sources */,
 				AB5BC755259F4280002EDF35 /* SceneDelegate.swift in Sources */,
 				AB5BC7CE25A09BF6002EDF35 /* SCNVectorHelpers.swift in Sources */,
+				AB846BFB271322D700345D3F /* Day56_ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
