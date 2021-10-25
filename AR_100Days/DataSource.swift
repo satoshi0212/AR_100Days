@@ -226,5 +226,11 @@ struct DaysDataSource {
             classPrefix: "Day56",
             enabled: true
         ),
+        Day(
+            title: "57: Free-D only attitude (WIP)",
+            detail: "",
+            classPrefix: "Day57",
+            enabled: true
+        ),
     ]
 }
