@@ -75,6 +75,9 @@
 		AB9FA57425B9B58600AA3AA1 /* Day18_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9FA57325B9B58600AA3AA1 /* Day18_ViewController.swift */; };
 		ABA34D0827271CF9001E28CC /* Day57_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA34D0727271CF9001E28CC /* Day57_ViewController.swift */; };
 		ABA34D0A27272138001E28CC /* Day57.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA34D0927272138001E28CC /* Day57.storyboard */; };
+		ABA34D0F2729D791001E28CC /* Day58_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA34D0E2729D791001E28CC /* Day58_ViewController.swift */; };
+		ABA34D11272A828B001E28CC /* Day58.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA34D10272A828B001E28CC /* Day58.storyboard */; };
+		ABA34D13272A82FA001E28CC /* MPCSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA34D12272A82FA001E28CC /* MPCSession.swift */; };
 		ABA60F6D26EF17DD00C5E506 /* Day55.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA60F6B26EF17DD00C5E506 /* Day55.storyboard */; };
 		ABA60F6E26EF17DD00C5E506 /* Day55_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA60F6C26EF17DD00C5E506 /* Day55_ViewController.swift */; };
 		ABCC482C26546F2100199A4B /* Day51.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCC482B26546F2100199A4B /* Day51.storyboard */; };
@@ -216,6 +219,9 @@
 		AB9FA57325B9B58600AA3AA1 /* Day18_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day18_ViewController.swift; sourceTree = "<group>"; };
 		ABA34D0727271CF9001E28CC /* Day57_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day57_ViewController.swift; sourceTree = "<group>"; };
 		ABA34D0927272138001E28CC /* Day57.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day57.storyboard; sourceTree = "<group>"; };
+		ABA34D0E2729D791001E28CC /* Day58_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day58_ViewController.swift; sourceTree = "<group>"; };
+		ABA34D10272A828B001E28CC /* Day58.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day58.storyboard; sourceTree = "<group>"; };
+		ABA34D12272A82FA001E28CC /* MPCSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPCSession.swift; sourceTree = "<group>"; };
 		ABA60F6B26EF17DD00C5E506 /* Day55.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Day55.storyboard; sourceTree = "<group>"; };
 		ABA60F6C26EF17DD00C5E506 /* Day55_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day55_ViewController.swift; sourceTree = "<group>"; };
 		ABCC482B26546F2100199A4B /* Day51.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day51.storyboard; sourceTree = "<group>"; };
@@ -387,6 +393,7 @@
 		AB5BC769259F439E002EDF35 /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				ABA34D0D2729CC3F001E28CC /* Day58 */,
 				ABA34D0627271CE3001E28CC /* Day57 */,
 				AB846BF7271322BF00345D3F /* Day56 */,
 				ABA60F6A26EF17DD00C5E506 /* Day55 */,
@@ -620,6 +627,16 @@
 				ABA34D0927272138001E28CC /* Day57.storyboard */,
 			);
 			path = Day57;
+			sourceTree = "<group>";
+		};
+		ABA34D0D2729CC3F001E28CC /* Day58 */ = {
+			isa = PBXGroup;
+			children = (
+				ABA34D12272A82FA001E28CC /* MPCSession.swift */,
+				ABA34D0E2729D791001E28CC /* Day58_ViewController.swift */,
+				ABA34D10272A828B001E28CC /* Day58.storyboard */,
+			);
+			path = Day58;
 			sourceTree = "<group>";
 		};
 		ABA60F6A26EF17DD00C5E506 /* Day55 */ = {
@@ -928,6 +945,7 @@
 				ABA34D0A27272138001E28CC /* Day57.storyboard in Resources */,
 				ABE1A06225BC864C0034AC0A /* cone.usdz in Resources */,
 				ABE19FFC25BC2E5A0034AC0A /* voxelBaseColor.png in Resources */,
+				ABA34D11272A828B001E28CC /* Day58.storyboard in Resources */,
 				ABE952BF25A3745200050AEC /* Day4.storyboard in Resources */,
 				ABDCDDF82607B22300EB4555 /* camera_click_001.wav in Resources */,
 				AB5BC7A1259F68C4002EDF35 /* sample_320x240.mp4 in Resources */,
@@ -993,6 +1011,7 @@
 				AB6A924625F4A425008274C8 /* Day45_ViewController.swift in Sources */,
 				AB846C00271326DB00345D3F /* PointCloudShaders.metal in Sources */,
 				AB9FA57425B9B58600AA3AA1 /* Day18_ViewController.swift in Sources */,
+				ABA34D13272A82FA001E28CC /* MPCSession.swift in Sources */,
 				AB5BC7C225A09B20002EDF35 /* Day2_ViewController.swift in Sources */,
 				AB846BFF271326DB00345D3F /* PointCloudRenderer.swift in Sources */,
 				ABE19FDA25BC21230034AC0A /* InputSystem.swift in Sources */,
@@ -1000,6 +1019,7 @@
 				ABDCDDF32607AB3100EB4555 /* Day47_ViewController.swift in Sources */,
 				AB5D624E25E162C1009BB647 /* Day41_ViewController.swift in Sources */,
 				AB2B523325E4AF4100101FEA /* Day42_ViewController.swift in Sources */,
+				ABA34D0F2729D791001E28CC /* Day58_ViewController.swift in Sources */,
 				AB6F8D8825D95692002F34A6 /* Day37_Renderer.swift in Sources */,
 				ABE19FC725BBE6F90034AC0A /* Day20_ViewController.swift in Sources */,
 				ABE1A03425BC72AF0034AC0A /* MetalModel.swift in Sources */,

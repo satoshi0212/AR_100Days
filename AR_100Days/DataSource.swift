@@ -232,5 +232,11 @@ struct DaysDataSource {
             classPrefix: "Day57",
             enabled: true
         ),
+        Day(
+            title: "58: Nearby Interaction, set plane",
+            detail: "",
+            classPrefix: "Day58",
+            enabled: true
+        ),
     ]
 }
