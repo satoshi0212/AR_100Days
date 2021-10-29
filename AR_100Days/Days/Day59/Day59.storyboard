@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Day59 View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="Day59_ViewController" id="Y6W-OH-hqX" customClass="Day59_ViewController" customModule="AR_100Days" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eGf-I9-JcV">
+                                <rect key="frame" x="70" y="84" width="274" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="eDC-wI-yXt"/>
+                                    <constraint firstAttribute="width" constant="274" id="l39-LI-b4o"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QAu-4p-JSu">
+                                <rect key="frame" x="20" y="150" width="374" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="2g9-oh-d9d"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="QAu-4p-JSu" secondAttribute="trailing" constant="20" id="1NP-Hp-NFw"/>
+                            <constraint firstItem="eGf-I9-JcV" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="40" id="JAG-fQ-JIP"/>
+                            <constraint firstItem="QAu-4p-JSu" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="U3l-Ls-hxQ"/>
+                            <constraint firstItem="eGf-I9-JcV" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="aF5-uW-t9r"/>
+                            <constraint firstItem="QAu-4p-JSu" firstAttribute="top" secondItem="eGf-I9-JcV" secondAttribute="bottom" constant="8" id="nw3-tF-ADd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="centerInformationLabel" destination="QAu-4p-JSu" id="JcE-gM-1io"/>
+                        <outlet property="detailDistanceLabel" destination="eGf-I9-JcV" id="TVj-ka-quw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="82"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
