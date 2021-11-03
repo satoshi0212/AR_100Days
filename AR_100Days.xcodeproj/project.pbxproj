@@ -43,6 +43,7 @@
 		AB5D626725E25D77009BB647 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = AB5D626625E25D77009BB647 /* Shaders.metal */; };
 		AB5D626E25E29A44009BB647 /* Day22_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5D626D25E29A44009BB647 /* Day22_ViewController.swift */; };
 		AB5D627125E29A4B009BB647 /* Day22.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5D627025E29A4B009BB647 /* Day22.storyboard */; };
+		AB6943942732EB6E0095A4BD /* Day60.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6943932732EB6E0095A4BD /* Day60.swift */; };
 		AB6A924325F4A419008274C8 /* Day45.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6A924225F4A419008274C8 /* Day45.storyboard */; };
 		AB6A924625F4A425008274C8 /* Day45_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6A924525F4A425008274C8 /* Day45_ViewController.swift */; };
 		AB6A924B25F50324008274C8 /* Day46_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6A924A25F50324008274C8 /* Day46_ViewController.swift */; };
@@ -187,6 +188,7 @@
 		AB5D626625E25D77009BB647 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 		AB5D626D25E29A44009BB647 /* Day22_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day22_ViewController.swift; sourceTree = "<group>"; };
 		AB5D627025E29A4B009BB647 /* Day22.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day22.storyboard; sourceTree = "<group>"; };
+		AB6943932732EB6E0095A4BD /* Day60.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day60.swift; sourceTree = "<group>"; };
 		AB6A924225F4A419008274C8 /* Day45.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day45.storyboard; sourceTree = "<group>"; };
 		AB6A924525F4A425008274C8 /* Day45_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day45_ViewController.swift; sourceTree = "<group>"; };
 		AB6A924A25F50324008274C8 /* Day46_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day46_ViewController.swift; sourceTree = "<group>"; };
@@ -399,6 +401,7 @@
 		AB5BC769259F439E002EDF35 /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				AB6943922732EB570095A4BD /* Day60 */,
 				ABA34D14272AE8FB001E28CC /* Day59 */,
 				ABA34D0D2729CC3F001E28CC /* Day58 */,
 				ABA34D0627271CE3001E28CC /* Day57 */,
@@ -508,6 +511,14 @@
 				AB5D627025E29A4B009BB647 /* Day22.storyboard */,
 			);
 			path = Day22;
+			sourceTree = "<group>";
+		};
+		AB6943922732EB570095A4BD /* Day60 */ = {
+			isa = PBXGroup;
+			children = (
+				AB6943932732EB6E0095A4BD /* Day60.swift */,
+			);
+			path = Day60;
 			sourceTree = "<group>";
 		};
 		AB6A924125F4A40E008274C8 /* Day45 */ = {
@@ -1033,6 +1044,7 @@
 				ABA34D13272A82FA001E28CC /* Day58_MPCSession.swift in Sources */,
 				AB5BC7C225A09B20002EDF35 /* Day2_ViewController.swift in Sources */,
 				AB846BFF271326DB00345D3F /* PointCloudRenderer.swift in Sources */,
+				AB6943942732EB6E0095A4BD /* Day60.swift in Sources */,
 				ABE19FDA25BC21230034AC0A /* InputSystem.swift in Sources */,
 				AB6F8D9625D958EB002F34A6 /* Shaders.metal in Sources */,
 				ABDCDDF32607AB3100EB4555 /* Day47_ViewController.swift in Sources */,
