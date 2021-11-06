@@ -55,7 +55,7 @@ Twitter: #hundred_days_ar_challenge
 | 46 | Failed: AR Camera to SCNScene | ![46](https://user-images.githubusercontent.com/5768361/140615677-fd448f01-ac89-4433-9788-67fe14a28396.gif) |
 | 47 | Display words with sound | ![47](https://user-images.githubusercontent.com/5768361/140615712-4a9c6f2c-a907-4855-a336-748e0c4ace53.gif) |
 | 48 | Dio Knifes | ![48](https://user-images.githubusercontent.com/5768361/140615771-41da67b8-77df-45c7-950d-26cb79e7176c.gif) |
-| 49 | AR Zoom mtg wip 1 | ![Day49](https://user-images.githubusercontent.com/5768361/140615830-a613f839-ed88-4870-b9d8-dc3ae63d42d0.jpg) |
+| 49 | AR Zoom mtg wip 1 | <img alt="Day49" src="https://user-images.githubusercontent.com/5768361/140615830-a613f839-ed88-4870-b9d8-dc3ae63d42d0.jpg" width="240px"> |
 | 50 | Image to movie | ![50](https://user-images.githubusercontent.com/5768361/140615855-5ce99e17-5ead-4f94-af02-67c7eb0116b4.gif) |
 | 51 | Extract 2D Facemap | ![51](https://user-images.githubusercontent.com/5768361/140616029-7bf76604-cf44-4bcb-bbdc-1a07120147f2.gif) |
 | 52 | Audio reactive FaceMap | ![52](https://user-images.githubusercontent.com/5768361/140616127-a609bb73-3b6d-41a1-8c34-57bd8097e993.gif) |
@@ -69,6 +69,7 @@ Twitter: #hundred_days_ar_challenge
 | 60 | Generate USDZ from png | ![60](https://user-images.githubusercontent.com/5768361/140616504-18af77f3-6e38-438c-9ba1-0fd653bc4b4b.gif) |
 | 61 | Image Board (WIP) | ![61](https://user-images.githubusercontent.com/5768361/140616517-a614ab0e-0469-4b0c-810b-31624753d61f.gif) |
 | 62 | Image Board | ![62](https://user-images.githubusercontent.com/5768361/140616550-22e5e345-c4e7-4b37-9b7b-3c84f1e5e34f.gif) |
+
 
 ### Respect to
 - https://github.com/warrenm
