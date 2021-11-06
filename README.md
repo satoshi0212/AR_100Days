@@ -48,7 +48,27 @@ Twitter: #hundred_days_ar_challenge
 | 39 | LiDAR: Real world Splatoon! | ![39](https://user-images.githubusercontent.com/5768361/108623167-d13cf100-7480-11eb-8273-ad494c76d689.gif) |
 | 40 | Blue face map | ![40](https://user-images.githubusercontent.com/5768361/108623206-1a8d4080-7481-11eb-9525-9d2f72cc7b2a.gif) |
 | 41 | Draw on face map | ![41](https://user-images.githubusercontent.com/5768361/108623268-68a24400-7481-11eb-93f6-ebe8f78480d1.gif) |
-
+| 42 | Black eye | ![42](https://user-images.githubusercontent.com/5768361/140615287-f37f6f67-df37-4fc6-b268-b91283197c12.gif) |
+| 43 | Only facemap | ![43](https://user-images.githubusercontent.com/5768361/140615316-f6b24f01-13b5-4747-b62e-231b7413ef61.gif) |
+| 44 | Copy facemap wip | ![44](https://user-images.githubusercontent.com/5768361/140615544-5202240c-4136-4b73-a68e-1c29d49631aa.gif) |
+| 45 | Floor pit | ![45](https://user-images.githubusercontent.com/5768361/140615575-f6c1b4d4-5285-4f0c-bcb8-940bfec26446.gif) |
+| 46 | Failed: AR Camera to SCNScene | ![46](https://user-images.githubusercontent.com/5768361/140615677-fd448f01-ac89-4433-9788-67fe14a28396.gif) |
+| 47 | Display words with sound | ![47](https://user-images.githubusercontent.com/5768361/140615712-4a9c6f2c-a907-4855-a336-748e0c4ace53.gif) |
+| 48 | Dio Knifes | ![48](https://user-images.githubusercontent.com/5768361/140615771-41da67b8-77df-45c7-950d-26cb79e7176c.gif) |
+| 49 | AR Zoom mtg wip 1 | ![Day49](https://user-images.githubusercontent.com/5768361/140615830-a613f839-ed88-4870-b9d8-dc3ae63d42d0.jpg) |
+| 50 | Image to movie | ![50](https://user-images.githubusercontent.com/5768361/140615855-5ce99e17-5ead-4f94-af02-67c7eb0116b4.gif) |
+| 51 | Extract 2D Facemap | ![51](https://user-images.githubusercontent.com/5768361/140616029-7bf76604-cf44-4bcb-bbdc-1a07120147f2.gif) |
+| 52 | Audio reactive FaceMap | ![52](https://user-images.githubusercontent.com/5768361/140616127-a609bb73-3b6d-41a1-8c34-57bd8097e993.gif) |
+| 53 | Audio reactive Shader face | ![53](https://user-images.githubusercontent.com/5768361/140616143-88b7a090-9777-4f83-b366-36f366505d53.gif) |
+| 54 | Change Face color by distance | ![54](https://user-images.githubusercontent.com/5768361/140616189-dfcc1e94-ec63-4c95-84f0-3a14b0007ad1.gif) |
+| 55 | Simple AR Nazotoki | ![55](https://user-images.githubusercontent.com/5768361/140616247-6d7f4091-1a76-441f-bc74-c43f0806b298.gif) |
+| 56 | Point Clouds | ![56](https://user-images.githubusercontent.com/5768361/140616282-43d5bceb-dc87-4aab-bb32-6f94513d91f0.gif) |
+| 57 | Free-D (only attitude WIP) | ![57](https://user-images.githubusercontent.com/5768361/140616314-ac1008d3-357d-4cc0-8d02-edfbe75b44a2.gif) |
+| 58 | Nearby Interaction, set plane | ![58](https://user-images.githubusercontent.com/5768361/140616448-fc1499e4-7d21-4e5f-9a24-20c6e0e109d5.gif) |
+| 59 | Nearby Interaction, auto set planes | ![59](https://user-images.githubusercontent.com/5768361/140616479-ec4a6e08-7466-4a54-8137-3f32f3a5873e.gif) |
+| 60 | Generate USDZ from png | ![60](https://user-images.githubusercontent.com/5768361/140616504-18af77f3-6e38-438c-9ba1-0fd653bc4b4b.gif) |
+| 61 | Image Board (WIP) | ![61](https://user-images.githubusercontent.com/5768361/140616517-a614ab0e-0469-4b0c-810b-31624753d61f.gif) |
+| 62 | Image Board | ![62](https://user-images.githubusercontent.com/5768361/140616550-22e5e345-c4e7-4b37-9b7b-3c84f1e5e34f.gif) |
 
 ### Respect to
 - https://github.com/warrenm
@@ -58,3 +78,6 @@ Twitter: #hundred_days_ar_challenge
 - https://github.com/andrewzimmer906/HeatMapEyeTracking
 - https://github.com/ooper-shlab/SceneKitReel-Swift
 - https://github.com/mattatz/PointCloudExplorer
+- https://github.com/TokyoYoshida/ExampleOfiOSLiDAR
+- https://github.com/mattbierner/headshot
+- https://blog.kishikawakatsumi.com/
