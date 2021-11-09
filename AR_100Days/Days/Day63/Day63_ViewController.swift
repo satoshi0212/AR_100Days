@@ -289,13 +289,24 @@ class Day63_ViewController: UIViewController, NISessionDelegate {
 
         if let node = targetNode {
             if let camera = sceneView.pointOfView,
-               let direction = currentDirection,
+               //let direction = currentDirection,
                let distance = peer.distance {
 
                 node.isHidden = isNearby(distance)
 
-                // x,y : adjust to center of device
-                let newPosition = camera.convertPosition(SCNVector3(x: direction.x - 0.1, y: direction.y - 0.1, z: direction.z), to: nil)
+                let azimuth = peer.direction.map(azimuth(from:))!
+                let elevation = peer.direction.map(elevation(from:))!
+
+                //let x = distance * direction.x
+                //let y = distance * direction.y
+                //let z = distance * direction.z
+
+                let x = distance * sin(azimuth) * cos(elevation)
+                let y = distance * sin(elevation)
+                //let z = -distance * cos(azimuth) * cos(elevation)
+                let z = -distance
+
+                let newPosition = camera.convertPosition(SCNVector3(x: x, y: y, z: z), to: nil)
                 let moveTo = SCNAction.move(to: newPosition, duration: animationDuration)
                 node.runAction(moveTo)
             } else {
