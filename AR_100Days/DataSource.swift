@@ -239,7 +239,7 @@ struct DaysDataSource {
             enabled: true
         ),
         Day(
-            title: "59: Nearby Interaction, Auto set planes",
+            title: "59: Nearby Interaction, auto set planes",
             detail: "",
             classPrefix: "Day59",
             enabled: true
@@ -248,6 +248,12 @@ struct DaysDataSource {
             title: "62: Image board",
             detail: "",
             classPrefix: "Day62",
+            enabled: true
+        ),
+        Day(
+            title: "63: Nearby Interaction, peer position",
+            detail: "",
+            classPrefix: "Day63",
             enabled: true
         ),
     ]

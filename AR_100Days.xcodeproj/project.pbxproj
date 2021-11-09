@@ -18,6 +18,9 @@
 		AB0D0752273665B400CFDBBB /* CacheEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0D0749273665B400CFDBBB /* CacheEntry.swift */; };
 		AB0D0753273665B400CFDBBB /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0D074A273665B400CFDBBB /* Fetcher.swift */; };
 		AB0D0754273665B400CFDBBB /* images.json in Resources */ = {isa = PBXBuildFile; fileRef = AB0D074B273665B400CFDBBB /* images.json */; };
+		AB0D0757273957C900CFDBBB /* Day63_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0D0756273957C900CFDBBB /* Day63_ViewController.swift */; };
+		AB0D0759273957D000CFDBBB /* Day63.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0D0758273957D000CFDBBB /* Day63.storyboard */; };
+		AB0D075B273959B900CFDBBB /* Day63_MPCSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0D075A273959B900CFDBBB /* Day63_MPCSession.swift */; };
 		AB2B523025E4AF3200101FEA /* Day42.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2B522F25E4AF3200101FEA /* Day42.storyboard */; };
 		AB2B523325E4AF4100101FEA /* Day42_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B523225E4AF4100101FEA /* Day42_ViewController.swift */; };
 		AB2B523A25E9ED1100101FEA /* Day43.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2B523925E9ED1100101FEA /* Day43.storyboard */; };
@@ -171,6 +174,9 @@
 		AB0D0749273665B400CFDBBB /* CacheEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheEntry.swift; sourceTree = "<group>"; };
 		AB0D074A273665B400CFDBBB /* Fetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fetcher.swift; sourceTree = "<group>"; };
 		AB0D074B273665B400CFDBBB /* images.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = images.json; sourceTree = "<group>"; };
+		AB0D0756273957C900CFDBBB /* Day63_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day63_ViewController.swift; sourceTree = "<group>"; };
+		AB0D0758273957D000CFDBBB /* Day63.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day63.storyboard; sourceTree = "<group>"; };
+		AB0D075A273959B900CFDBBB /* Day63_MPCSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day63_MPCSession.swift; sourceTree = "<group>"; };
 		AB2B522F25E4AF3200101FEA /* Day42.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day42.storyboard; sourceTree = "<group>"; };
 		AB2B523225E4AF4100101FEA /* Day42_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day42_ViewController.swift; sourceTree = "<group>"; };
 		AB2B523925E9ED1100101FEA /* Day43.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day43.storyboard; sourceTree = "<group>"; };
@@ -357,6 +363,16 @@
 			path = ImagePipeline;
 			sourceTree = "<group>";
 		};
+		AB0D0755273957BC00CFDBBB /* Day63 */ = {
+			isa = PBXGroup;
+			children = (
+				AB0D075A273959B900CFDBBB /* Day63_MPCSession.swift */,
+				AB0D0756273957C900CFDBBB /* Day63_ViewController.swift */,
+				AB0D0758273957D000CFDBBB /* Day63.storyboard */,
+			);
+			path = Day63;
+			sourceTree = "<group>";
+		};
 		AB2B522E25E4AF2800101FEA /* Day42 */ = {
 			isa = PBXGroup;
 			children = (
@@ -449,6 +465,7 @@
 		AB5BC769259F439E002EDF35 /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				AB0D0755273957BC00CFDBBB /* Day63 */,
 				AB0D073D2736651100CFDBBB /* Day62 */,
 				AB6943922732EB570095A4BD /* Day60 */,
 				ABA34D14272AE8FB001E28CC /* Day59 */,
@@ -1020,6 +1037,7 @@
 				ABA60F6D26EF17DD00C5E506 /* Day55.storyboard in Resources */,
 				AB89116F26936FC100FFA03B /* Day52.storyboard in Resources */,
 				AB774A0425ACF2E5001900F1 /* Day10.storyboard in Resources */,
+				AB0D0759273957D000CFDBBB /* Day63.storyboard in Resources */,
 				AB2B524925EA1C3000101FEA /* Day44.storyboard in Resources */,
 				ABA34D0A27272138001E28CC /* Day57.storyboard in Resources */,
 				ABE1A06225BC864C0034AC0A /* cone.usdz in Resources */,
@@ -1105,6 +1123,7 @@
 				AB0D074F273665B400CFDBBB /* ImageProcessing.swift in Sources */,
 				AB2B523325E4AF4100101FEA /* Day42_ViewController.swift in Sources */,
 				AB0D074D273665B400CFDBBB /* ImagePipeline.swift in Sources */,
+				AB0D0757273957C900CFDBBB /* Day63_ViewController.swift in Sources */,
 				ABA34D0F2729D791001E28CC /* Day58_ViewController.swift in Sources */,
 				AB6F8D8825D95692002F34A6 /* Day37_Renderer.swift in Sources */,
 				ABE19FC725BBE6F90034AC0A /* Day20_ViewController.swift in Sources */,
@@ -1132,6 +1151,7 @@
 				ABE952C925A3750000050AEC /* Day4_shaders.metal in Sources */,
 				ABF68E9825C69405007C9BB7 /* Day28_ViewController.swift in Sources */,
 				AB5BC753259F4280002EDF35 /* AppDelegate.swift in Sources */,
+				AB0D075B273959B900CFDBBB /* Day63_MPCSession.swift in Sources */,
 				ABE1A02625BC72680034AC0A /* Day21_RadarMap.swift in Sources */,
 				AB5D626025E25AD2009BB647 /* Day11_ViewController.swift in Sources */,
 				AB6F8D5B25CF28E8002F34A6 /* Day31_ViewController.swift in Sources */,

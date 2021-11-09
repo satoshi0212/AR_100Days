@@ -4,24 +4,24 @@ import MultipeerConnectivity
 import ARKit
 import SceneKit
 
-class Day58_ViewController: UIViewController, NISessionDelegate {
+class Day63_ViewController: UIViewController, NISessionDelegate {
 
     @IBOutlet weak var centerInformationLabel: UILabel!
     @IBOutlet weak var detailDistanceLabel: UILabel!
     private var sceneView: ARSCNView!
 
     private let nearbyDistanceThreshold: Float = 0.3
+    private let animationDuration = 0.0
 
     private var session: NISession?
     private var peerDiscoveryToken: NIDiscoveryToken?
-    private var mpc: Day58_MPCSession?
+    private var mpc: Day63_MPCSession?
     private var connectedPeer: MCPeerID?
     private var sharedTokenWithPeer = false
     private var peerDisplayName: String?
 
-    private var currentAzimuth: Float?
-    private var currentElevation: Float?
-    private var currentDistance: Float?
+    private var targetNode: SCNNode?
+    private var currentDirection: simd_float3?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -63,39 +63,34 @@ class Day58_ViewController: UIViewController, NISessionDelegate {
     }
 
     @objc func tapped(recognizer: UIGestureRecognizer) {
+        addNode()
+    }
+
+    private func addNode() {
+
+        if let node = targetNode {
+            node.removeFromParentNode()
+            targetNode = nil
+        }
 
         guard
             let camera = sceneView.pointOfView,
-            let distance = currentDistance
+            let direction = currentDirection
         else { return }
 
         let node = SCNNode()
-        node.geometry = SCNPlane(width: 0.6, height: 0.3)
+
+        node.geometry = SCNSphere(radius: 0.2)
         let material = SCNMaterial()
-        material.isDoubleSided = true
-        material.diffuse.contents = UIColor(red: 0.5, green: 0.5, blue: 0.9, alpha: 0.6)
+        material.diffuse.contents = UIColor(red: 0.9, green: 0.3, blue: 0.3, alpha: 0.8)
         node.geometry?.materials = [material]
 
-        let position = SCNVector3(x: 0, y: 0, z: -0.3)
+        let position = SCNVector3(x: direction.x, y: direction.y, z: direction.z)
         node.position = camera.convertPosition(position, to: nil)
-        node.eulerAngles = camera.eulerAngles
+
         sceneView.scene.rootNode.addChildNode(node)
 
-        let textGeometry = SCNText(string: String(format: "%0.2f m", distance), extrusionDepth: 0.8)
-        textGeometry.font = UIFont(name: "HiraginoSans-W6", size: 100)
-        textGeometry.firstMaterial?.diffuse.contents = UIColor.white
-
-        let textNode = SCNNode(geometry: textGeometry)
-
-        let (min, max) = (textNode.boundingBox)
-        let w = Float(max.x - min.x)
-        let h = Float(max.y - min.y)
-        textNode.pivot = SCNMatrix4MakeTranslation(w/2 + min.x, h/2 + min.y, 0)
-
-        textNode.position = camera.convertPosition(position, to: nil)
-        textNode.eulerAngles = camera.eulerAngles
-        textNode.scale = SCNVector3(0.0005, 0.0005, 0.0005)
-        sceneView.scene.rootNode.addChildNode(textNode)
+        targetNode = node
     }
 
     private func startup() {
@@ -221,7 +216,7 @@ class Day58_ViewController: UIViewController, NISessionDelegate {
 
     func startupMPC() {
         if mpc == nil {
-            mpc = Day58_MPCSession(service: "ar100days", identity: "tokyo.shmdevelopment.nearbyinteraction", maxPeers: 1)
+            mpc = Day63_MPCSession(service: "ar100days", identity: "tokyo.shmdevelopment.nearbyinteraction", maxPeers: 1)
             mpc?.peerConnectedHandler = connectedToPeer
             mpc?.peerDataHandler = dataReceivedHandler
             mpc?.peerDisconnectedHandler = disconnectedFromPeer
@@ -287,22 +282,32 @@ class Day58_ViewController: UIViewController, NISessionDelegate {
     }
 
     private func animate(peer: NINearbyObject) {
-        let azimuth = peer.direction.map(azimuth(from:))
-        let elevation = peer.direction.map(elevation(from:))
-        if elevation != nil && azimuth != nil {
-            // print("elevation: \(String(format: "%.6f°", elevation!.radiansToDegrees)), azimuth: \(String(format: "%.6f°", azimuth!.radiansToDegrees))")
-            currentElevation = elevation
-            currentAzimuth = azimuth
-        }
-
         centerInformationLabel.text = peerDisplayName
         if peer.distance != nil {
             detailDistanceLabel.text = String(format: "%0.2f m", peer.distance!)
-            currentDistance = peer.distance
+        }
+
+        if let node = targetNode {
+            if let camera = sceneView.pointOfView,
+               let direction = currentDirection,
+               let distance = peer.distance {
+
+                node.isHidden = isNearby(distance)
+
+                // x,y : adjust to center of device
+                let newPosition = camera.convertPosition(SCNVector3(x: direction.x - 0.1, y: direction.y - 0.1, z: direction.z), to: nil)
+                let moveTo = SCNAction.move(to: newPosition, duration: animationDuration)
+                node.runAction(moveTo)
+            } else {
+                node.isHidden = true
+            }
         }
     }
 
     private func updateVisualization(peer: NINearbyObject) {
+
+        currentDirection = peer.direction
+
         UIView.animate(withDuration: 0.3, animations: {
             self.animate(peer: peer)
         })

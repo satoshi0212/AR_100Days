@@ -59,6 +59,7 @@ class Day59_ViewController: UIViewController, NISessionDelegate {
         super.viewWillDisappear(animated)
 
         sceneView.session.pause()
+        session?.invalidate()
         mpc?.invalidate()
     }
 
