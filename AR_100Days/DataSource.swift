@@ -256,5 +256,11 @@ struct DaysDataSource {
             classPrefix: "Day63",
             enabled: true
         ),
+        Day(
+            title: "64: Find faces with rear camera",
+            detail: "",
+            classPrefix: "Day64",
+            enabled: true
+        ),
     ]
 }
