@@ -76,7 +76,7 @@ class Day64_ViewController: UIViewController {
 
         CVPixelBufferLockBaseAddress(imageBuffer, CVPixelBufferLockFlags(rawValue: 0))
 
-        guard let pixelBufferBaseAddres = CVPixelBufferGetBaseAddressOfPlane(imageBuffer, 0) else {
+        guard let pixelBufferBaseAddress = CVPixelBufferGetBaseAddressOfPlane(imageBuffer, 0) else {
             CVPixelBufferUnlockBaseAddress(imageBuffer, CVPixelBufferLockFlags(rawValue: 0))
             return nil
         }
@@ -86,7 +86,7 @@ class Day64_ViewController: UIViewController {
         let bitmapInfo = CGBitmapInfo(rawValue: (CGBitmapInfo.byteOrder32Little.rawValue | CGImageAlphaInfo.premultipliedFirst.rawValue) )
 
         guard let newContext = CGContext(
-            data: pixelBufferBaseAddres,
+            data: pixelBufferBaseAddress,
             width: width,
             height: height,
             bitsPerComponent: 8,
@@ -100,10 +100,10 @@ class Day64_ViewController: UIViewController {
         }
 
         let imageSize = CGSize(width: width, height: height)
-        let faseRects = faceObservations.compactMap {
+        let faceRects = faceObservations.compactMap {
             getUnfoldRect(normalizedRect: $0.boundingBox, targetSize: imageSize)
         }
-        faseRects.forEach{ self.drawRect($0, context: newContext) }
+        faceRects.forEach{ self.drawRect($0, context: newContext) }
 
         CVPixelBufferUnlockBaseAddress(imageBuffer, CVPixelBufferLockFlags(rawValue: 0))
 

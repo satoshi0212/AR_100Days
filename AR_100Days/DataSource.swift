@@ -262,5 +262,11 @@ struct DaysDataSource {
             classPrefix: "Day64",
             enabled: true
         ),
+        Day(
+            title: "66: Detect body by Vision",
+            detail: "",
+            classPrefix: "Day66",
+            enabled: true
+        ),
     ]
 }
