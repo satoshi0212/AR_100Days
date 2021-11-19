@@ -86,6 +86,9 @@
 		AB89116F26936FC100FFA03B /* Day52.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB89116E26936FC100FFA03B /* Day52.storyboard */; };
 		AB89117426948D3200FFA03B /* Day53.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB89117326948D3200FFA03B /* Day53.storyboard */; };
 		AB89117726948D3E00FFA03B /* Day53_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB89117626948D3E00FFA03B /* Day53_ViewController.swift */; };
+		AB947BD42746EB7600C96878 /* Day68.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB947BD32746EB7600C96878 /* Day68.storyboard */; };
+		AB947BD62746EB8200C96878 /* Day68_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB947BD52746EB8200C96878 /* Day68_ViewController.swift */; };
+		AB947BD827470B4600C96878 /* animeganpaprika.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AB947BD727470B4600C96878 /* animeganpaprika.mlmodel */; };
 		AB9FA57125B9B57100AA3AA1 /* Day18.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9FA57025B9B57100AA3AA1 /* Day18.storyboard */; };
 		AB9FA57425B9B58600AA3AA1 /* Day18_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9FA57325B9B58600AA3AA1 /* Day18_ViewController.swift */; };
 		ABA34D0827271CF9001E28CC /* Day57_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA34D0727271CF9001E28CC /* Day57_ViewController.swift */; };
@@ -252,6 +255,9 @@
 		AB89116E26936FC100FFA03B /* Day52.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day52.storyboard; sourceTree = "<group>"; };
 		AB89117326948D3200FFA03B /* Day53.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day53.storyboard; sourceTree = "<group>"; };
 		AB89117626948D3E00FFA03B /* Day53_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day53_ViewController.swift; sourceTree = "<group>"; };
+		AB947BD32746EB7600C96878 /* Day68.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day68.storyboard; sourceTree = "<group>"; };
+		AB947BD52746EB8200C96878 /* Day68_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day68_ViewController.swift; sourceTree = "<group>"; };
+		AB947BD727470B4600C96878 /* animeganpaprika.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = animeganpaprika.mlmodel; sourceTree = "<group>"; };
 		AB9FA57025B9B57100AA3AA1 /* Day18.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day18.storyboard; sourceTree = "<group>"; };
 		AB9FA57325B9B58600AA3AA1 /* Day18_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day18_ViewController.swift; sourceTree = "<group>"; };
 		ABA34D0727271CF9001E28CC /* Day57_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day57_ViewController.swift; sourceTree = "<group>"; };
@@ -473,6 +479,7 @@
 		AB5BC769259F439E002EDF35 /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				AB947BD22746EB6A00C96878 /* Day68 */,
 				ABD242982743D65100F1799E /* Day66 */,
 				ABD24257273CE71800F1799E /* Day64 */,
 				AB0D0755273957BC00CFDBBB /* Day63 */,
@@ -703,6 +710,16 @@
 				AB44F29726D10F1C005C0AF5 /* Day53_Shader.metal */,
 			);
 			path = Day53;
+			sourceTree = "<group>";
+		};
+		AB947BD22746EB6A00C96878 /* Day68 */ = {
+			isa = PBXGroup;
+			children = (
+				AB947BD32746EB7600C96878 /* Day68.storyboard */,
+				AB947BD52746EB8200C96878 /* Day68_ViewController.swift */,
+				AB947BD727470B4600C96878 /* animeganpaprika.mlmodel */,
+			);
+			path = Day68;
 			sourceTree = "<group>";
 		};
 		AB9FA56F25B9B55D00AA3AA1 /* Day18 */ = {
@@ -1046,6 +1063,7 @@
 				AB6A924F25F5032D008274C8 /* Day46.storyboard in Resources */,
 				ABE19FFF25BC2E5A0034AC0A /* Voxel_White.usdz in Resources */,
 				ABE952DE25A51C9700050AEC /* Day5.storyboard in Resources */,
+				AB947BD42746EB7600C96878 /* Day68.storyboard in Resources */,
 				AB89117426948D3200FFA03B /* Day53.storyboard in Resources */,
 				AB7749D925A63582001900F1 /* Day6.storyboard in Resources */,
 				ABA34D16272AE90A001E28CC /* Day59.storyboard in Resources */,
@@ -1169,6 +1187,7 @@
 				AB6F8DA325D977D7002F34A6 /* Day38_ViewController.swift in Sources */,
 				ABE19FD025BBE86D0034AC0A /* VoxelEntity.swift in Sources */,
 				AB5BC7C625A09BB9002EDF35 /* Day2_shaders.metal in Sources */,
+				AB947BD62746EB8200C96878 /* Day68_ViewController.swift in Sources */,
 				AB6F8D8425D955F1002F34A6 /* Day37_ViewController.swift in Sources */,
 				AB0D0751273665B400CFDBBB /* DiskCache.swift in Sources */,
 				ABE1A03125BC72AF0034AC0A /* MetalParticles.swift in Sources */,
@@ -1180,6 +1199,7 @@
 				AB5BC757259F4280002EDF35 /* RootViewController.swift in Sources */,
 				ABA34D0827271CF9001E28CC /* Day57_ViewController.swift in Sources */,
 				ABE952C925A3750000050AEC /* Day4_shaders.metal in Sources */,
+				AB947BD827470B4600C96878 /* animeganpaprika.mlmodel in Sources */,
 				ABF68E9825C69405007C9BB7 /* Day28_ViewController.swift in Sources */,
 				AB5BC753259F4280002EDF35 /* AppDelegate.swift in Sources */,
 				AB0D075B273959B900CFDBBB /* Day63_MPCSession.swift in Sources */,
