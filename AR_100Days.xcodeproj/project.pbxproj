@@ -89,6 +89,8 @@
 		AB947BD42746EB7600C96878 /* Day68.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB947BD32746EB7600C96878 /* Day68.storyboard */; };
 		AB947BD62746EB8200C96878 /* Day68_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB947BD52746EB8200C96878 /* Day68_ViewController.swift */; };
 		AB947BD827470B4600C96878 /* animeganpaprika.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AB947BD727470B4600C96878 /* animeganpaprika.mlmodel */; };
+		AB947BDB27492A9F00C96878 /* Day69.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB947BDA27492A9F00C96878 /* Day69.storyboard */; };
+		AB947BDD27492AAB00C96878 /* Day69_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB947BDC27492AAB00C96878 /* Day69_ViewController.swift */; };
 		AB9FA57125B9B57100AA3AA1 /* Day18.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9FA57025B9B57100AA3AA1 /* Day18.storyboard */; };
 		AB9FA57425B9B58600AA3AA1 /* Day18_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9FA57325B9B58600AA3AA1 /* Day18_ViewController.swift */; };
 		ABA34D0827271CF9001E28CC /* Day57_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA34D0727271CF9001E28CC /* Day57_ViewController.swift */; };
@@ -258,6 +260,8 @@
 		AB947BD32746EB7600C96878 /* Day68.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day68.storyboard; sourceTree = "<group>"; };
 		AB947BD52746EB8200C96878 /* Day68_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day68_ViewController.swift; sourceTree = "<group>"; };
 		AB947BD727470B4600C96878 /* animeganpaprika.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = animeganpaprika.mlmodel; sourceTree = "<group>"; };
+		AB947BDA27492A9F00C96878 /* Day69.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day69.storyboard; sourceTree = "<group>"; };
+		AB947BDC27492AAB00C96878 /* Day69_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day69_ViewController.swift; sourceTree = "<group>"; };
 		AB9FA57025B9B57100AA3AA1 /* Day18.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day18.storyboard; sourceTree = "<group>"; };
 		AB9FA57325B9B58600AA3AA1 /* Day18_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day18_ViewController.swift; sourceTree = "<group>"; };
 		ABA34D0727271CF9001E28CC /* Day57_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day57_ViewController.swift; sourceTree = "<group>"; };
@@ -464,14 +468,15 @@
 		AB5BC768259F4396002EDF35 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				ABDCDE1B26146AD500EB4555 /* live_001.mp4 */,
-				ABDCDDFA2607B27C00EB4555 /* impact-001.wav */,
+				AB947BD727470B4600C96878 /* animeganpaprika.mlmodel */,
 				ABDCDDF72607B22300EB4555 /* camera_click_001.wav */,
-				AB2B524025E9FBDA00101FEA /* VideoTexturedFace.shader */,
-				ABF68EAB25C6BCC0007C9BB7 /* wood.png */,
-				ABF68E9E25C6B20C007C9BB7 /* splash.png */,
-				ABF68E9F25C6B20C007C9BB7 /* wood-normal.png */,
+				ABDCDDFA2607B27C00EB4555 /* impact-001.wav */,
+				ABDCDE1B26146AD500EB4555 /* live_001.mp4 */,
 				AB5BC797259F68C4002EDF35 /* sample_320x240.mp4 */,
+				ABF68E9E25C6B20C007C9BB7 /* splash.png */,
+				AB2B524025E9FBDA00101FEA /* VideoTexturedFace.shader */,
+				ABF68E9F25C6B20C007C9BB7 /* wood-normal.png */,
+				ABF68EAB25C6BCC0007C9BB7 /* wood.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -479,6 +484,7 @@
 		AB5BC769259F439E002EDF35 /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				AB947BD927492A9000C96878 /* Day69 */,
 				AB947BD22746EB6A00C96878 /* Day68 */,
 				ABD242982743D65100F1799E /* Day66 */,
 				ABD24257273CE71800F1799E /* Day64 */,
@@ -717,9 +723,17 @@
 			children = (
 				AB947BD32746EB7600C96878 /* Day68.storyboard */,
 				AB947BD52746EB8200C96878 /* Day68_ViewController.swift */,
-				AB947BD727470B4600C96878 /* animeganpaprika.mlmodel */,
 			);
 			path = Day68;
+			sourceTree = "<group>";
+		};
+		AB947BD927492A9000C96878 /* Day69 */ = {
+			isa = PBXGroup;
+			children = (
+				AB947BDA27492A9F00C96878 /* Day69.storyboard */,
+				AB947BDC27492AAB00C96878 /* Day69_ViewController.swift */,
+			);
+			path = Day69;
 			sourceTree = "<group>";
 		};
 		AB9FA56F25B9B55D00AA3AA1 /* Day18 */ = {
@@ -1096,6 +1110,7 @@
 				AB2B523A25E9ED1100101FEA /* Day43.storyboard in Resources */,
 				ABE19FC425BBE6E50034AC0A /* Day20.storyboard in Resources */,
 				AB5D627125E29A4B009BB647 /* Day22.storyboard in Resources */,
+				AB947BDB27492A9F00C96878 /* Day69.storyboard in Resources */,
 				AB846BF9271322CB00345D3F /* Day56.storyboard in Resources */,
 				AB6F8D7625D903CC002F34A6 /* Day36.storyboard in Resources */,
 				AB0D073F2736651D00CFDBBB /* Day62.storyboard in Resources */,
@@ -1156,6 +1171,7 @@
 				AB6A924B25F50324008274C8 /* Day46_ViewController.swift in Sources */,
 				ABE1A01325BC6E770034AC0A /* Day21_Classifications.swift in Sources */,
 				AB2B523D25E9ED1D00101FEA /* Day43_ViewController.swift in Sources */,
+				AB947BDD27492AAB00C96878 /* Day69_ViewController.swift in Sources */,
 				AB0D0750273665B400CFDBBB /* MemoryCache.swift in Sources */,
 				AB6A924625F4A425008274C8 /* Day45_ViewController.swift in Sources */,
 				AB846C00271326DB00345D3F /* PointCloudShaders.metal in Sources */,
