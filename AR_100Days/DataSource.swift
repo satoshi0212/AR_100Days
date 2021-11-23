@@ -280,5 +280,11 @@ struct DaysDataSource {
             classPrefix: "Day69",
             enabled: true
         ),
+        Day(
+            title: "70: Plot 3D Body segments (wip)",
+            detail: "",
+            classPrefix: "Day70",
+            enabled: true
+        ),
     ]
 }

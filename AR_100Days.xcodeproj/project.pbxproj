@@ -91,6 +91,8 @@
 		AB947BD827470B4600C96878 /* animeganpaprika.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AB947BD727470B4600C96878 /* animeganpaprika.mlmodel */; };
 		AB947BDB27492A9F00C96878 /* Day69.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB947BDA27492A9F00C96878 /* Day69.storyboard */; };
 		AB947BDD27492AAB00C96878 /* Day69_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB947BDC27492AAB00C96878 /* Day69_ViewController.swift */; };
+		AB947BE0274A211100C96878 /* Day70.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB947BDF274A211100C96878 /* Day70.storyboard */; };
+		AB947BE2274A211D00C96878 /* Day70_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB947BE1274A211D00C96878 /* Day70_ViewController.swift */; };
 		AB9FA57125B9B57100AA3AA1 /* Day18.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9FA57025B9B57100AA3AA1 /* Day18.storyboard */; };
 		AB9FA57425B9B58600AA3AA1 /* Day18_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9FA57325B9B58600AA3AA1 /* Day18_ViewController.swift */; };
 		ABA34D0827271CF9001E28CC /* Day57_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA34D0727271CF9001E28CC /* Day57_ViewController.swift */; };
@@ -262,6 +264,8 @@
 		AB947BD727470B4600C96878 /* animeganpaprika.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = animeganpaprika.mlmodel; sourceTree = "<group>"; };
 		AB947BDA27492A9F00C96878 /* Day69.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day69.storyboard; sourceTree = "<group>"; };
 		AB947BDC27492AAB00C96878 /* Day69_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day69_ViewController.swift; sourceTree = "<group>"; };
+		AB947BDF274A211100C96878 /* Day70.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day70.storyboard; sourceTree = "<group>"; };
+		AB947BE1274A211D00C96878 /* Day70_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day70_ViewController.swift; sourceTree = "<group>"; };
 		AB9FA57025B9B57100AA3AA1 /* Day18.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day18.storyboard; sourceTree = "<group>"; };
 		AB9FA57325B9B58600AA3AA1 /* Day18_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day18_ViewController.swift; sourceTree = "<group>"; };
 		ABA34D0727271CF9001E28CC /* Day57_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day57_ViewController.swift; sourceTree = "<group>"; };
@@ -484,6 +488,7 @@
 		AB5BC769259F439E002EDF35 /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				AB947BDE274A210700C96878 /* Day70 */,
 				AB947BD927492A9000C96878 /* Day69 */,
 				AB947BD22746EB6A00C96878 /* Day68 */,
 				ABD242982743D65100F1799E /* Day66 */,
@@ -734,6 +739,15 @@
 				AB947BDC27492AAB00C96878 /* Day69_ViewController.swift */,
 			);
 			path = Day69;
+			sourceTree = "<group>";
+		};
+		AB947BDE274A210700C96878 /* Day70 */ = {
+			isa = PBXGroup;
+			children = (
+				AB947BDF274A211100C96878 /* Day70.storyboard */,
+				AB947BE1274A211D00C96878 /* Day70_ViewController.swift */,
+			);
+			path = Day70;
 			sourceTree = "<group>";
 		};
 		AB9FA56F25B9B55D00AA3AA1 /* Day18 */ = {
@@ -1080,6 +1094,7 @@
 				AB947BD42746EB7600C96878 /* Day68.storyboard in Resources */,
 				AB89117426948D3200FFA03B /* Day53.storyboard in Resources */,
 				AB7749D925A63582001900F1 /* Day6.storyboard in Resources */,
+				AB947BE0274A211100C96878 /* Day70.storyboard in Resources */,
 				ABA34D16272AE90A001E28CC /* Day59.storyboard in Resources */,
 				ABDCDE122610F3FE00EB4555 /* Day50.storyboard in Resources */,
 				AB44F29D26D25977005C0AF5 /* Day54.storyboard in Resources */,
@@ -1173,6 +1188,7 @@
 				AB2B523D25E9ED1D00101FEA /* Day43_ViewController.swift in Sources */,
 				AB947BDD27492AAB00C96878 /* Day69_ViewController.swift in Sources */,
 				AB0D0750273665B400CFDBBB /* MemoryCache.swift in Sources */,
+				AB947BE2274A211D00C96878 /* Day70_ViewController.swift in Sources */,
 				AB6A924625F4A425008274C8 /* Day45_ViewController.swift in Sources */,
 				AB846C00271326DB00345D3F /* PointCloudShaders.metal in Sources */,
 				AB9FA57425B9B58600AA3AA1 /* Day18_ViewController.swift in Sources */,
