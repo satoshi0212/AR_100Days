@@ -286,5 +286,11 @@ struct DaysDataSource {
             classPrefix: "Day70",
             enabled: true
         ),
+        Day(
+            title: "76: Planes and classifications",
+            detail: "",
+            classPrefix: "Day76",
+            enabled: true
+        ),
     ]
 }

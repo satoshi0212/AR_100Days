@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E9FB52E276F809F009BCE34 /* Day76.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9FB52D276F809F009BCE34 /* Day76.storyboard */; };
+		8E9FB530276F80AB009BCE34 /* Day76_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9FB52F276F80AB009BCE34 /* Day76_ViewController.swift */; };
 		AB0D073F2736651D00CFDBBB /* Day62.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0D073E2736651D00CFDBBB /* Day62.storyboard */; };
 		AB0D07412736652E00CFDBBB /* Day62_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0D07402736652E00CFDBBB /* Day62_ViewController.swift */; };
 		AB0D074C273665B400CFDBBB /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0D0743273665B400CFDBBB /* Storage.swift */; };
@@ -174,6 +176,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E9FB52D276F809F009BCE34 /* Day76.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day76.storyboard; sourceTree = "<group>"; };
+		8E9FB52F276F80AB009BCE34 /* Day76_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day76_ViewController.swift; sourceTree = "<group>"; };
 		AB0D073E2736651D00CFDBBB /* Day62.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day62.storyboard; sourceTree = "<group>"; };
 		AB0D07402736652E00CFDBBB /* Day62_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day62_ViewController.swift; sourceTree = "<group>"; };
 		AB0D0743273665B400CFDBBB /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
@@ -359,6 +363,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E9FB52C276F8096009BCE34 /* Day76 */ = {
+			isa = PBXGroup;
+			children = (
+				8E9FB52D276F809F009BCE34 /* Day76.storyboard */,
+				8E9FB52F276F80AB009BCE34 /* Day76_ViewController.swift */,
+			);
+			path = Day76;
+			sourceTree = "<group>";
+		};
 		AB0D073D2736651100CFDBBB /* Day62 */ = {
 			isa = PBXGroup;
 			children = (
@@ -488,6 +501,7 @@
 		AB5BC769259F439E002EDF35 /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				8E9FB52C276F8096009BCE34 /* Day76 */,
 				AB947BDE274A210700C96878 /* Day70 */,
 				AB947BD927492A9000C96878 /* Day69 */,
 				AB947BD22746EB6A00C96878 /* Day68 */,
@@ -1099,6 +1113,7 @@
 				ABDCDE122610F3FE00EB4555 /* Day50.storyboard in Resources */,
 				AB44F29D26D25977005C0AF5 /* Day54.storyboard in Resources */,
 				ABCC482C26546F2100199A4B /* Day51.storyboard in Resources */,
+				8E9FB52E276F809F009BCE34 /* Day76.storyboard in Resources */,
 				ABDCDE1C26146AD500EB4555 /* live_001.mp4 in Resources */,
 				AB5BC75F259F4282002EDF35 /* LaunchScreen.storyboard in Resources */,
 				AB5D624725E159E9009BB647 /* Day40.storyboard in Resources */,
@@ -1175,6 +1190,7 @@
 				AB0D0752273665B400CFDBBB /* CacheEntry.swift in Sources */,
 				AB5BC7C725A09BB9002EDF35 /* PlaneNode.swift in Sources */,
 				AB2B524625EA1C2A00101FEA /* Day44_ViewController.swift in Sources */,
+				8E9FB530276F80AB009BCE34 /* Day76_ViewController.swift in Sources */,
 				ABE19FD625BBF2930034AC0A /* GameManager.swift in Sources */,
 				ABA34D1A272AE939001E28CC /* Day59_MPCSession.swift in Sources */,
 				ABE952DB25A51C8300050AEC /* Day5_ViewController.swift in Sources */,
