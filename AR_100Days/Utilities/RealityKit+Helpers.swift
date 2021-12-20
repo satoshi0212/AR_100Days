@@ -160,7 +160,7 @@ extension Entity {
     }
 }
 
-extension HasModel where Self: Entity {
+extension HasModel {
     public func replaceMaterial(_ index: Int, with material: Material) {
         guard index >= 0, index < model?.materials.count ?? 0 else {
             let materialCount = model?.materials.count ?? 0

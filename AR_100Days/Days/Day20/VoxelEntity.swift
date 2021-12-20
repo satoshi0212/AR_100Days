@@ -28,7 +28,8 @@ final class VoxelEntity: Entity, HasPhysics, HasModel, HasCollision, HasPhysicsM
             .collect()
             .tryMap { textures in
                 var mat = SimpleMaterial()
-                mat.baseColor = .texture(textures[0])
+                let baseColorResource = MaterialParameters.Texture(textures[0])
+                mat.color = .init(texture: baseColorResource)
                 mat.metallic = .texture(textures[1])
                 mat.roughness = .texture(textures[2])
                 return mat

@@ -89,8 +89,7 @@ class Voxel: Equatable {
 
     public func setMaterialColor(_ color: UIColor) {
         guard var voxelMaterial = voxelMaterial else { return }
-        voxelMaterial.baseColor = .color(color)
-        voxelMaterial.tintColor = UIColor.white.withAlphaComponent(1)
+        voxelMaterial.color = .init(tint: color)
         modelEntity?.model?.materials[0] = voxelMaterial
     }
 

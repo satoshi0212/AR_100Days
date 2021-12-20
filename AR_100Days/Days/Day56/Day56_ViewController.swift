@@ -22,7 +22,10 @@ class Day56_ViewController: UIViewController, UIGestureRecognizerDelegate {
     lazy private var renderer = PointCloudRenderer(device: device,session: session, mtkView: mtkView)
 
     var orientation: UIInterfaceOrientation {
-        guard let orientation = UIApplication.shared.windows.first?.windowScene?.interfaceOrientation else {
+        guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+              let window = windowScene.windows.first,
+              let orientation = window.windowScene?.interfaceOrientation
+        else {
             fatalError()
         }
         return orientation
