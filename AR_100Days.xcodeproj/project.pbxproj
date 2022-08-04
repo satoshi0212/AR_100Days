@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E4A0EC22809F47800A00750 /* Day78_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4A0EC12809F47800A00750 /* Day78_ViewController.swift */; };
+		8E4A0EC42809F48300A00750 /* Day78.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4A0EC32809F48300A00750 /* Day78.storyboard */; };
+		8E4A0ECC280A013200A00750 /* recipe_2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8E4A0EC7280A00C800A00750 /* recipe_2.mp4 */; };
+		8E4A0ECD280A013200A00750 /* recipe_3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8E4A0ECB280A00C800A00750 /* recipe_3.mp4 */; };
+		8E4A0ECE280A013200A00750 /* recipe_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8E4A0EC8280A00C800A00750 /* recipe_1.mp4 */; };
+		8E4A0ECF280A013200A00750 /* recipe_4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8E4A0ECA280A00C800A00750 /* recipe_4.mp4 */; };
+		8E4A0ED0280A013200A00750 /* recipe_5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8E4A0EC9280A00C800A00750 /* recipe_5.mp4 */; };
 		8E9FB52E276F809F009BCE34 /* Day76.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9FB52D276F809F009BCE34 /* Day76.storyboard */; };
 		8E9FB530276F80AB009BCE34 /* Day76_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9FB52F276F80AB009BCE34 /* Day76_ViewController.swift */; };
 		AB0D073F2736651D00CFDBBB /* Day62.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0D073E2736651D00CFDBBB /* Day62.storyboard */; };
@@ -176,6 +183,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E4A0EC12809F47800A00750 /* Day78_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day78_ViewController.swift; sourceTree = "<group>"; };
+		8E4A0EC32809F48300A00750 /* Day78.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day78.storyboard; sourceTree = "<group>"; };
+		8E4A0EC7280A00C800A00750 /* recipe_2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = recipe_2.mp4; sourceTree = "<group>"; };
+		8E4A0EC8280A00C800A00750 /* recipe_1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = recipe_1.mp4; sourceTree = "<group>"; };
+		8E4A0EC9280A00C800A00750 /* recipe_5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = recipe_5.mp4; sourceTree = "<group>"; };
+		8E4A0ECA280A00C800A00750 /* recipe_4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = recipe_4.mp4; sourceTree = "<group>"; };
+		8E4A0ECB280A00C800A00750 /* recipe_3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = recipe_3.mp4; sourceTree = "<group>"; };
 		8E9FB52D276F809F009BCE34 /* Day76.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day76.storyboard; sourceTree = "<group>"; };
 		8E9FB52F276F80AB009BCE34 /* Day76_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day76_ViewController.swift; sourceTree = "<group>"; };
 		AB0D073E2736651D00CFDBBB /* Day62.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day62.storyboard; sourceTree = "<group>"; };
@@ -363,6 +377,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E4A0EC02809F46A00A00750 /* Day78 */ = {
+			isa = PBXGroup;
+			children = (
+				8E4A0EC32809F48300A00750 /* Day78.storyboard */,
+				8E4A0EC12809F47800A00750 /* Day78_ViewController.swift */,
+			);
+			path = Day78;
+			sourceTree = "<group>";
+		};
 		8E9FB52C276F8096009BCE34 /* Day76 */ = {
 			isa = PBXGroup;
 			children = (
@@ -485,6 +508,11 @@
 		AB5BC768259F4396002EDF35 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8E4A0EC8280A00C800A00750 /* recipe_1.mp4 */,
+				8E4A0EC7280A00C800A00750 /* recipe_2.mp4 */,
+				8E4A0ECB280A00C800A00750 /* recipe_3.mp4 */,
+				8E4A0ECA280A00C800A00750 /* recipe_4.mp4 */,
+				8E4A0EC9280A00C800A00750 /* recipe_5.mp4 */,
 				AB947BD727470B4600C96878 /* animeganpaprika.mlmodel */,
 				ABDCDDF72607B22300EB4555 /* camera_click_001.wav */,
 				ABDCDDFA2607B27C00EB4555 /* impact-001.wav */,
@@ -501,6 +529,7 @@
 		AB5BC769259F439E002EDF35 /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				8E4A0EC02809F46A00A00750 /* Day78 */,
 				8E9FB52C276F8096009BCE34 /* Day76 */,
 				AB947BDE274A210700C96878 /* Day70 */,
 				AB947BD927492A9000C96878 /* Day69 */,
@@ -1117,6 +1146,7 @@
 				ABDCDE1C26146AD500EB4555 /* live_001.mp4 in Resources */,
 				AB5BC75F259F4282002EDF35 /* LaunchScreen.storyboard in Resources */,
 				AB5D624725E159E9009BB647 /* Day40.storyboard in Resources */,
+				8E4A0ECC280A013200A00750 /* recipe_2.mp4 in Resources */,
 				AB5D624B25E162B1009BB647 /* Day41.storyboard in Resources */,
 				ABD24259273CE72300F1799E /* Day64.storyboard in Resources */,
 				ABE19FFE25BC2E5A0034AC0A /* voxelRoughness.png in Resources */,
@@ -1132,6 +1162,7 @@
 				AB2B524925EA1C3000101FEA /* Day44.storyboard in Resources */,
 				ABA34D0A27272138001E28CC /* Day57.storyboard in Resources */,
 				ABE1A06225BC864C0034AC0A /* cone.usdz in Resources */,
+				8E4A0EC42809F48300A00750 /* Day78.storyboard in Resources */,
 				ABE19FFC25BC2E5A0034AC0A /* voxelBaseColor.png in Resources */,
 				ABA34D11272A828B001E28CC /* Day58.storyboard in Resources */,
 				ABE952BF25A3745200050AEC /* Day4.storyboard in Resources */,
@@ -1142,16 +1173,20 @@
 				AB5D627125E29A4B009BB647 /* Day22.storyboard in Resources */,
 				AB947BDB27492A9F00C96878 /* Day69.storyboard in Resources */,
 				AB846BF9271322CB00345D3F /* Day56.storyboard in Resources */,
+				8E4A0ED0280A013200A00750 /* recipe_5.mp4 in Resources */,
 				AB6F8D7625D903CC002F34A6 /* Day36.storyboard in Resources */,
 				AB0D073F2736651D00CFDBBB /* Day62.storyboard in Resources */,
 				ABF68EAC25C6BCC0007C9BB7 /* wood.png in Resources */,
+				8E4A0ECE280A013200A00750 /* recipe_1.mp4 in Resources */,
 				AB2B524C25EB9C6B00101FEA /* Day44_VideoTexturedFace.shader in Resources */,
 				AB5BC75C259F4282002EDF35 /* Assets.xcassets in Resources */,
+				8E4A0ECD280A013200A00750 /* recipe_3.mp4 in Resources */,
 				AB2B523025E4AF3200101FEA /* Day42.storyboard in Resources */,
 				ABDCDDF02607AB2500EB4555 /* Day47.storyboard in Resources */,
 				ABDCDDFF2607DB2E00EB4555 /* Day48.storyboard in Resources */,
 				ABDCDDFB2607B27C00EB4555 /* impact-001.wav in Resources */,
 				AB6F8DA025D977C8002F34A6 /* Day38.storyboard in Resources */,
+				8E4A0ECF280A013200A00750 /* recipe_4.mp4 in Resources */,
 				ABF68EA925C6B988007C9BB7 /* SceneKitAssets.scnassets in Resources */,
 				ABF68E8B25C5D6D8007C9BB7 /* Day27.storyboard in Resources */,
 				ABF68EA025C6B20C007C9BB7 /* splash.png in Resources */,
@@ -1223,6 +1258,7 @@
 				ABA34D0F2729D791001E28CC /* Day58_ViewController.swift in Sources */,
 				AB6F8D8825D95692002F34A6 /* Day37_Renderer.swift in Sources */,
 				ABE19FC725BBE6F90034AC0A /* Day20_ViewController.swift in Sources */,
+				8E4A0EC22809F47800A00750 /* Day78_ViewController.swift in Sources */,
 				ABE1A03425BC72AF0034AC0A /* MetalModel.swift in Sources */,
 				AB0D0753273665B400CFDBBB /* Fetcher.swift in Sources */,
 				ABA34D18272AE910001E28CC /* Day59_ViewController.swift in Sources */,
