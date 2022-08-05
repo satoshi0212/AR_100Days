@@ -104,6 +104,8 @@ extension MLMultiArray {
             return _image(min: min, max: max, channel: channel, axes: axes)
         case .float32:
             return _image(min: Float(min), max: Float(max), channel: channel, axes: axes)
+        case .float16:
+            return _image(min: Float(min), max: Float(max), channel: channel, axes: axes)
         case .int32:
             return _image(min: Int32(min), max: Int32(max), channel: channel, axes: axes)
         @unknown default:

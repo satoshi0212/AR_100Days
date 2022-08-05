@@ -298,5 +298,11 @@ struct DaysDataSource {
             classPrefix: "Day78",
             enabled: true
         ),
+        Day(
+            title: "79: ELDEN RING Compass",
+            detail: "",
+            classPrefix: "Day79",
+            enabled: true
+        ),
     ]
 }
