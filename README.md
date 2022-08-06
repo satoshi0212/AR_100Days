@@ -69,7 +69,23 @@ Twitter: #hundred_days_ar_challenge
 | 60 | Generate USDZ from png | ![60](https://user-images.githubusercontent.com/5768361/140616504-18af77f3-6e38-438c-9ba1-0fd653bc4b4b.gif) |
 | 61 | Image Board (WIP) | ![61](https://user-images.githubusercontent.com/5768361/140616517-a614ab0e-0469-4b0c-810b-31624753d61f.gif) |
 | 62 | Image Board | ![62](https://user-images.githubusercontent.com/5768361/140616550-22e5e345-c4e7-4b37-9b7b-3c84f1e5e34f.gif) |
-
+| 63 | Nearby Interaction, peer position |  |
+| 64 | Find faces with rear camera |  |
+| 65 | Divide human to parts (wip) |  |
+| 66 | Detect body by Vision |  |
+| 67 | AnimeGANv2 Paprika (wip) |  |
+| 68 | Paprika |  |
+| 69 | Realtime Paprika |  |
+| 70 | Plot 3D Body segments (wip) |  |
+| 71 | Osmo Mobile 3 as PTZ |  |
+| 72 | Send camera info wip |  |
+| 73 | Device tracking |  |
+| 74 | 3DoF Free-D send |  |
+| 75 | 6DoF Free-D send |  |
+| 76 | Planes and classifications |  |
+| 77 | AR Camera Tracking |  |
+| 78 | Recipes |  |
+| 79 | ELDEN RING Compass |  |
 
 ### Respect to
 - https://github.com/warrenm
