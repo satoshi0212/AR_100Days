@@ -304,5 +304,11 @@ struct DaysDataSource {
             classPrefix: "Day79",
             enabled: true
         ),
+        Day(
+            title: "80: VPS with GPS object placement",
+            detail: "",
+            classPrefix: "Day80",
+            enabled: true
+        ),
     ]
 }
